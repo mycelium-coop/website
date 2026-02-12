@@ -1,0 +1,24 @@
+:root {
+  /* Colors — Earthy Vitality Palette */
+  --color-warm-white: #FFF8F0;
+  --color-sage-green: #9CAF88;
+  --color-healthy-growth: #7FA67C;
+  --color-mushroom-beige: #BFA993;
+  --color-rich-soil: #6B4E3D;
+
+  /* Derived tints */
+  --color-sage-tint: #e8ede4;
+  --color-mushroom-tint: #f0e8e0;
+
+  /* Font families — controlled by JS toggles */
+  --font-logo: 'Rubik Dirt', cursive;
+  --font-header: 'Archivo Black', sans-serif;
+  --font-header-weight: 400;
+  --font-body: 'Inter Variable', sans-serif;
+
+  /* Spacing */
+  --section-padding: 5rem 2rem;
+  --container-max: 960px;
+  --card-padding: 2rem;
+  --gap: 1.5rem;
+}

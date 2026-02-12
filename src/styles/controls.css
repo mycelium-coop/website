@@ -1,0 +1,95 @@
+.controls-bar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: var(--color-rich-soil);
+  color: var(--color-warm-white);
+  padding: 0.75rem 1.5rem;
+  transition: padding 0.2s ease;
+}
+
+.controls-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.controls-header h1 {
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.collapse-btn {
+  background: transparent;
+  border: 1px solid rgba(255, 248, 240, 0.3);
+  color: var(--color-warm-white);
+  padding: 0.25rem 0.75rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.8rem;
+  transition: background 0.15s;
+}
+
+.collapse-btn:hover {
+  background: rgba(255, 248, 240, 0.1);
+}
+
+.controls-body {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 0.75rem;
+  flex-wrap: wrap;
+  overflow: hidden;
+  max-height: 200px;
+  transition: max-height 0.3s ease, margin-top 0.3s ease, opacity 0.2s ease;
+  opacity: 1;
+}
+
+.controls-bar.collapsed .controls-body {
+  max-height: 0;
+  margin-top: 0;
+  opacity: 0;
+}
+
+.control-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.control-group label {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  opacity: 0.8;
+}
+
+.control-group select {
+  background: var(--color-warm-white);
+  color: var(--color-rich-soil);
+  border: none;
+  border-radius: 4px;
+  padding: 0.4rem 0.6rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+  min-width: 180px;
+}
+
+.control-group select:focus {
+  outline: 2px solid var(--color-sage-green);
+  outline-offset: 1px;
+}
+
+@media (max-width: 700px) {
+  .controls-body {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .control-group select {
+    min-width: unset;
+    width: 100%;
+  }
+}
