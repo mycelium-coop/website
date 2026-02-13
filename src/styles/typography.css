@@ -39,7 +39,8 @@ footer .logo-text {
   font-size: 2rem;
   margin-bottom: 0.75rem;
   -webkit-text-stroke: var(--logo-stroke-width) var(--color-mushroom-beige);
-  text-shadow: 0 6px 14px rgba(0, 0, 0, 0.45);
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 6px 14px var(--logo-shadow-color);
 }
 
 .principle-card h3 {
