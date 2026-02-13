@@ -11,10 +11,13 @@
   --color-mushroom-tint: #f0e8e0;
 
   /* Font families — controlled by JS toggles */
-  --font-logo: 'Rubik Dirt', cursive;
+  --font-logo: 'Rubik Maze', cursive;
   --font-header: 'Archivo Black', sans-serif;
   --font-header-weight: 400;
-  --font-body: 'Inter Variable', sans-serif;
+  --font-body: 'IBM Plex Mono', monospace;
+  --logo-stroke-width: 0.5px;
+  --logo-outline-color: var(--color-rich-soil);
+  --logo-shadow-color: rgba(62, 41, 29, 0.3);
 
   /* Spacing */
   --section-padding: 5rem 2rem;

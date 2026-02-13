@@ -3,6 +3,9 @@
   font-size: 3.5rem;
   line-height: 1.1;
   margin-bottom: 1.5rem;
+  color: var(--color-warm-white);
+  -webkit-text-stroke: var(--logo-stroke-width) var(--logo-outline-color);
+  text-shadow: 0 6px 14px var(--logo-shadow-color);
 }
 
 h2 {
@@ -32,6 +35,13 @@ body, p, li {
   line-height: 1.7;
 }
 
+footer .logo-text {
+  font-size: 2rem;
+  margin-bottom: 0.75rem;
+  -webkit-text-stroke: var(--logo-stroke-width) var(--color-mushroom-beige);
+  text-shadow: 0 6px 14px rgba(0, 0, 0, 0.45);
+}
+
 .principle-card h3 {
   color: var(--color-rich-soil);
   font-size: 1.15rem;
@@ -57,11 +67,6 @@ body, p, li {
   text-underline-offset: 3px;
 }
 
-footer .logo-text {
-  font-size: 2rem;
-  margin-bottom: 0.75rem;
-}
-
 footer p {
   font-size: 0.9rem;
   opacity: 0.8;
@@ -79,4 +84,5 @@ footer p {
   .tagline {
     font-size: 1.1rem;
   }
+
 }
