@@ -21,6 +21,7 @@
     "@fontsource/rubik-distressed": "^5.2.7",
     "@fontsource/rubik-maze": "^5.2.7",
     "@fontsource/rubik-microbe": "^5.2.7",
+    "marked": "^17.0.2",
     "vite": "^7.3.1"
   }
 }
