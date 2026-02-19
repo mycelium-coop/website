@@ -2,7 +2,10 @@
 OUR MISSION
 
 <!-- @id: mission-intro -->
-We dream of a world where everyone has the power to create and adapt technology to meet the needs and desires of their own communities. We strive to get there by shifting away from the current dynamic of a privileged few creating the tools we all use. We ground our work in these principles:
+We dream of a world where everyone has the power to create and adapt technology to meet the needs and desires of their own communities.
+
+<!-- @id: mission-body -->
+We strive to get there by shifting away from the current dynamic of a privileged few creating the tools we all use. We ground our work in these principles:
 
 <!-- @id: principle-1-title -->
 Relational Capacity Building
