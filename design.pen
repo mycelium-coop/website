@@ -2299,34 +2299,6 @@
                       "fontFamily": "IBM Plex Mono",
                       "fontSize": 15,
                       "fontWeight": "normal"
-                    },
-                    {
-                      "type": "frame",
-                      "id": "QQZj4",
-                      "name": "svc1Cta",
-                      "cornerRadius": 8,
-                      "stroke": {
-                        "align": "inside",
-                        "thickness": 1.5,
-                        "fill": "$color-rich-soil"
-                      },
-                      "padding": [
-                        12,
-                        24
-                      ],
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "MMyjj",
-                          "name": "svc1CtaText",
-                          "fill": "$color-rich-soil",
-                          "content": "Learn More →",
-                          "fontFamily": "IBM Plex Mono",
-                          "fontSize": 14,
-                          "fontWeight": "600"
-                        }
-                      ]
                     }
                   ]
                 },
@@ -2376,30 +2348,6 @@
                       "fontFamily": "IBM Plex Mono",
                       "fontSize": 15,
                       "fontWeight": "normal"
-                    },
-                    {
-                      "type": "frame",
-                      "id": "r86NB",
-                      "name": "svc2Cta",
-                      "fill": "$color-healthy-growth",
-                      "cornerRadius": 8,
-                      "padding": [
-                        12,
-                        24
-                      ],
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "ON5GY",
-                          "name": "svc2CtaText",
-                          "fill": "$color-warm-white",
-                          "content": "Start a Project →",
-                          "fontFamily": "IBM Plex Mono",
-                          "fontSize": 14,
-                          "fontWeight": "600"
-                        }
-                      ]
                     }
                   ]
                 }
@@ -2419,6 +2367,7 @@
             100,
             120
           ],
+          "alignItems": "center",
           "children": [
             {
               "type": "text",
@@ -3264,6 +3213,17 @@
                           "opacity": 0.6,
                           "fill": "$color-warm-white",
                           "content": "Email Us",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "vmG19",
+                          "name": "contactLink",
+                          "opacity": 0.6,
+                          "fill": "$color-warm-white",
+                          "content": "Contact Form",
                           "fontFamily": "IBM Plex Mono",
                           "fontSize": 14,
                           "fontWeight": "normal"
