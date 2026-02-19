@@ -2,7 +2,7 @@
 OUR TEAM
 
 <!--
-  Team members use a numbered pattern: team-N-name, team-N-role, team-N-bio.
+  Team members use a numbered pattern: team-N-name, team-N-role, team-N-bio, team-N-image.
   To add a new member, copy the block below and increment the number.
 -->
 
@@ -11,6 +11,9 @@ Nikka Ghalili
 
 <!-- @id: team-1-role -->
 Co-Founder & Worker-Owner
+
+<!-- @id: team-1-image -->
+https://ik.imagekit.io/qmlzmjfmr/IMG_7392.jpeg
 
 <!-- @id: team-1-bio -->
 Nikka's journey as a software developer and informational technologist in New Orleans has been shaped by movement across cultures and continents. Born to a Persian/Iranian family in Baton Rouge and raised in Dalian, China, he weaves together perspectives from multiple worlds into his tech and community work.
@@ -30,6 +33,9 @@ When he's not coding or helping friends, neighbors, and family solve their every
 
 <!-- @id: team-2-role -->
 <!-- Role Title -->
+
+<!-- @id: team-2-image -->
+<!-- https://ik.imagekit.io/qmlzmjfmr/your-image.jpeg -->
 
 <!-- @id: team-2-bio -->
 <!-- Bio paragraph(s) here. -->
