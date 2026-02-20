@@ -51,6 +51,7 @@
               "content": "Style Guide",
               "fontFamily": "Archivo Black",
               "fontSize": 28,
+              "fontWeight": "normal",
               "letterSpacing": 2
             },
             {
@@ -89,7 +90,8 @@
               "fill": "$color-rich-soil",
               "content": "Color Palette",
               "fontFamily": "Archivo Black",
-              "fontSize": 22
+              "fontSize": 22,
+              "fontWeight": "normal"
             },
             {
               "type": "text",
@@ -466,7 +468,8 @@
               "fill": "$color-rich-soil",
               "content": "Typography",
               "fontFamily": "Archivo Black",
-              "fontSize": 22
+              "fontSize": 22,
+              "fontWeight": "normal"
             },
             {
               "type": "text",
@@ -648,7 +651,8 @@
                       "fill": "$color-rich-soil",
                       "content": "Solidarity",
                       "fontFamily": "Archivo Black",
-                      "fontSize": 42
+                      "fontSize": 42,
+                      "fontWeight": "normal"
                     },
                     {
                       "type": "frame",
@@ -665,7 +669,8 @@
                           "fill": "$color-rich-soil",
                           "content": "H1 — 48px Header",
                           "fontFamily": "Archivo Black",
-                          "fontSize": 28
+                          "fontSize": 28,
+                          "fontWeight": "normal"
                         },
                         {
                           "type": "text",
@@ -675,7 +680,8 @@
                           "fill": "$color-rich-soil",
                           "content": "H2 — 36px Section Title",
                           "fontFamily": "Archivo Black",
-                          "fontSize": 22
+                          "fontSize": 22,
+                          "fontWeight": "normal"
                         },
                         {
                           "type": "text",
@@ -685,7 +691,8 @@
                           "fill": "$color-rich-soil",
                           "content": "H3 — 24px Subsection",
                           "fontFamily": "Archivo Black",
-                          "fontSize": 18
+                          "fontSize": 18,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -770,7 +777,8 @@
                       "content": "Technology\nfor the commons",
                       "lineHeight": 1.3,
                       "fontFamily": "IBM Plex Mono",
-                      "fontSize": 32
+                      "fontSize": 32,
+                      "fontWeight": "normal"
                     },
                     {
                       "type": "text",
@@ -783,7 +791,8 @@
                       "content": "The quick brown fox jumps over the lazy dog. We build tools that serve communities, not shareholders. Every line of code is an act of solidarity.",
                       "lineHeight": 1.7,
                       "fontFamily": "IBM Plex Mono",
-                      "fontSize": 14
+                      "fontSize": 14,
+                      "fontWeight": "normal"
                     },
                     {
                       "type": "text",
@@ -793,7 +802,8 @@
                       "content": "Small — 12px / Regular 400\nCaption — 11px / Medium 500",
                       "lineHeight": 1.6,
                       "fontFamily": "IBM Plex Mono",
-                      "fontSize": 12
+                      "fontSize": 12,
+                      "fontWeight": "normal"
                     },
                     {
                       "type": "text",
@@ -835,7 +845,8 @@
               "fill": "$color-rich-soil",
               "content": "Logo & Branding",
               "fontFamily": "Archivo Black",
-              "fontSize": 22
+              "fontSize": 22,
+              "fontWeight": "normal"
             },
             {
               "type": "text",
@@ -891,6 +902,7 @@
                       "content": "TECH CO-OP",
                       "fontFamily": "Archivo Black",
                       "fontSize": 14,
+                      "fontWeight": "normal",
                       "letterSpacing": 6
                     },
                     {
@@ -947,6 +959,7 @@
                       "content": "TECH CO-OP",
                       "fontFamily": "Archivo Black",
                       "fontSize": 14,
+                      "fontWeight": "normal",
                       "letterSpacing": 6
                     },
                     {
@@ -1003,6 +1016,7 @@
                       "content": "TECH CO-OP",
                       "fontFamily": "Archivo Black",
                       "fontSize": 14,
+                      "fontWeight": "normal",
                       "letterSpacing": 6
                     },
                     {
@@ -1046,7 +1060,8 @@
               "fill": "$color-rich-soil",
               "content": "UI Elements",
               "fontFamily": "Archivo Black",
-              "fontSize": 22
+              "fontSize": 22,
+              "fontWeight": "normal"
             },
             {
               "type": "text",
@@ -1236,7 +1251,8 @@
                       "fill": "$color-rich-soil",
                       "content": "Custom Development",
                       "fontFamily": "Archivo Black",
-                      "fontSize": 16
+                      "fontSize": 16,
+                      "fontWeight": "normal"
                     },
                     {
                       "type": "text",
@@ -1295,7 +1311,8 @@
                       "fill": "$color-rich-soil",
                       "content": "Co-op Governance",
                       "fontFamily": "Archivo Black",
-                      "fontSize": 16
+                      "fontSize": 16,
+                      "fontWeight": "normal"
                     },
                     {
                       "type": "text",
@@ -1354,7 +1371,8 @@
                       "fill": "$color-warm-white",
                       "content": "Tech Sovereignty",
                       "fontFamily": "Archivo Black",
-                      "fontSize": 16
+                      "fontSize": 16,
+                      "fontWeight": "normal"
                     },
                     {
                       "type": "text",
@@ -1399,7 +1417,8 @@
               "fill": "$color-rich-soil",
               "content": "Spacing & Design Tokens",
               "fontFamily": "Archivo Black",
-              "fontSize": 22
+              "fontSize": 22,
+              "fontWeight": "normal"
             },
             {
               "type": "text",
@@ -1442,7 +1461,8 @@
                       "fill": "$color-rich-soil",
                       "content": "Spacing Scale",
                       "fontFamily": "Archivo Black",
-                      "fontSize": 14
+                      "fontSize": 14,
+                      "fontWeight": "normal"
                     },
                     {
                       "type": "text",
@@ -1481,7 +1501,8 @@
                       "fill": "$color-rich-soil",
                       "content": "Corner Radius",
                       "fontFamily": "Archivo Black",
-                      "fontSize": 14
+                      "fontSize": 14,
+                      "fontWeight": "normal"
                     },
                     {
                       "type": "frame",
@@ -1572,7 +1593,8 @@
                       "fill": "$color-rich-soil",
                       "content": "Logo Stroke",
                       "fontFamily": "Archivo Black",
-                      "fontSize": 14
+                      "fontSize": 14,
+                      "fontWeight": "normal"
                     },
                     {
                       "type": "text",
@@ -2258,7 +2280,6 @@
                   "id": "snBIt",
                   "name": "Service 1 — Technical Assistance",
                   "width": "fill_container",
-                  "height": "fill_container",
                   "fill": "#FFFFFF",
                   "cornerRadius": 16,
                   "layout": "vertical",
