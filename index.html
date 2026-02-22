@@ -3,117 +3,243 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mycelium Tech Coop — Font Testing</title>
+    <title>Mycelium Tech Coop</title>
   </head>
   <body>
+    <div class="site-shell">
+      <header class="site-header" id="top">
+        <div class="site-nav">
+          <a class="brand brand--nav" href="#top" data-logo-compact>{{logo-text}}</a>
 
-    <!-- Font Controls -->
-    <div class="controls-bar" id="controls">
-      <div class="controls-header">
-        <h1>Font Testing</h1>
-        <button class="collapse-btn" id="collapseBtn">Collapse</button>
-      </div>
-      <div class="controls-body">
-        <div class="control-group">
-          <label for="logoFont">Logo Font</label>
-          <select id="logoFont">
-            <option value="'Rubik Dirt', cursive">Rubik Dirt</option>
-            <option value="'Rubik Distressed', cursive">Rubik Distressed</option>
-            <option value="'Rubik Maze', cursive" selected>Rubik Maze</option>
-            <option value="'Rubik Microbe', cursive">Rubik Microbe</option>
-          </select>
+          <button
+            class="nav-toggle"
+            id="navToggle"
+            type="button"
+            aria-expanded="false"
+            aria-controls="navMenu"
+            aria-label="Toggle navigation menu"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+
+          <nav class="nav-menu" id="navMenu" aria-label="Primary">
+            <a href="#mission">{{nav-link-mission}}</a>
+            <a href="#services">{{nav-link-services}}</a>
+            <a href="#team">{{nav-link-team}}</a>
+            <a class="button button--dark button--nav" href="#contact">{{nav-cta-contact}}</a>
+          </nav>
         </div>
-        <div class="control-group">
-          <label for="headerFont">Header Font</label>
-          <select id="headerFont">
-            <option value="'Archivo Black', sans-serif" data-weight="400">Archivo Black</option>
-            <option value="'DM Sans Variable', sans-serif" data-weight="700">DM Sans</option>
-            <option value="'IBM Plex Mono', monospace" data-weight="700">IBM Plex Mono</option>
-            <option value="'Poppins', sans-serif" data-weight="700">Poppins</option>
-            <option value="'Inter Variable', sans-serif" data-weight="700">Inter</option>
-          </select>
+      </header>
+
+      <main>
+        <section class="hero-section" aria-labelledby="hero-title">
+          <div class="hero-panel">
+            <div class="hero-accent" aria-hidden="true"></div>
+            <h1 class="brand brand--hero" id="hero-title">{{logo-text}}</h1>
+            <p class="hero-tagline">{{hero-tagline}}</p>
+            <div class="hero-actions">
+              <a class="button button--accent" href="#mission">{{hero-cta-primary}}</a>
+              <a class="button button--light" href="#services">{{hero-cta-secondary}}</a>
+            </div>
+          </div>
+        </section>
+
+        <section class="content-section mission-section" id="mission" aria-labelledby="mission-heading">
+          <div class="section-header">
+            <p class="section-label">{{mission-heading}}</p>
+            <h2 class="section-title" id="mission-heading">{{mission-intro}}</h2>
+            <p class="section-intro">{{mission-body}}</p>
+          </div>
+
+          <div class="principles-grid">
+            <article class="principle-card principle-card--light">
+              <div class="principle-card__heading">
+                <div class="principle-card__icon" aria-hidden="true">
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    aria-hidden="true"
+                  >
+                    <path d="m11 17 2 2a1 1 0 1 0 3-3"></path>
+                    <path d="m14 14 2.5 2.5a1 1 0 1 0 3-3l-3.88-3.88a3 3 0 0 0-4.24 0l-.88.88a1 1 0 1 1-3-3l2.81-2.81a5.79 5.79 0 0 1 7.06-.87l.47.28a2 2 0 0 0 1.42.25L21 4"></path>
+                    <path d="m21 3 1 11h-2M3 3 2 14l6.5 6.5a1 1 0 1 0 3-3M3 4h8"></path>
+                  </svg>
+                </div>
+                <h3>{{principle-1-title}}</h3>
+              </div>
+              <p>{{principle-1-body}}</p>
+            </article>
+
+            <article class="principle-card principle-card--sage">
+              <div class="principle-card__heading">
+                <div class="principle-card__icon principle-card__icon--light" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                    <path d="M12 3l7 4v5c0 5-3 8-7 9-4-1-7-4-7-9V7l7-4Z"></path>
+                    <path d="m9 12 2 2 4-4"></path>
+                  </svg>
+                </div>
+                <h3>{{principle-2-title}}</h3>
+              </div>
+              <p>{{principle-2-body}}</p>
+            </article>
+
+            <article class="principle-card principle-card--dark">
+              <div class="principle-card__heading">
+                <div class="principle-card__icon principle-card__icon--dark" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                    <circle cx="12" cy="12" r="2"></circle>
+                    <path d="M12 4v6"></path>
+                    <path d="M12 14v6"></path>
+                    <path d="M4 12h6"></path>
+                    <path d="M14 12h6"></path>
+                    <path d="M6.7 6.7l4.2 4.2"></path>
+                    <path d="m13.1 13.1 4.2 4.2"></path>
+                    <path d="m17.3 6.7-4.2 4.2"></path>
+                    <path d="m10.9 13.1-4.2 4.2"></path>
+                  </svg>
+                </div>
+                <h3>{{principle-3-title}}</h3>
+              </div>
+              <p>{{principle-3-body}}</p>
+            </article>
+
+            <article class="principle-card principle-card--beige">
+              <div class="principle-card__heading">
+                <div class="principle-card__icon principle-card__icon--light" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                    <path d="M8 7h13"></path>
+                    <path d="M3 7h2"></path>
+                    <path d="M16 17H3"></path>
+                    <path d="M21 17h-2"></path>
+                    <path d="m14 10 3-3-3-3"></path>
+                    <path d="m10 14-3 3 3 3"></path>
+                  </svg>
+                </div>
+                <h3>{{principle-4-title}}</h3>
+              </div>
+              <p>{{principle-4-body}}</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="content-section services-section" id="services" aria-labelledby="services-heading">
+          <div class="section-header">
+            <p class="section-label">{{services-heading}}</p>
+            <h2 class="section-title" id="services-heading">{{services-subheading}}</h2>
+          </div>
+
+          <div class="services-grid">
+            <article class="service-card service-card--light">
+              <p class="service-card__index">01</p>
+              <h3>{{service-1-title}}</h3>
+              <p>{{service-1-body}}</p>
+            </article>
+
+            <article class="service-card service-card--dark">
+              <p class="service-card__index">02</p>
+              <h3>{{service-2-title}}</h3>
+              <p>{{service-2-body}}</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="content-section team-section" id="team" aria-labelledby="team-heading">
+          <div class="section-header">
+            <p class="section-label" id="team-heading">{{team-heading}}</p>
+          </div>
+          <div class="team-list" id="teamList"></div>
+        </section>
+
+        <section class="content-section contact-section" id="contact" aria-labelledby="contact-heading">
+          <div class="contact-shell">
+            <div class="section-header section-header--contact">
+              <h2 class="section-title" id="contact-heading">{{contact-heading}}</h2>
+              <p class="section-intro">{{contact-intro}}</p>
+            </div>
+
+            <form class="contact-form" id="contactForm" novalidate>
+              <input type="hidden" name="to" id="contactRecipient" />
+
+              <div class="contact-form__row">
+                <div class="field">
+                  <label for="firstName">{{contact-label-first-name}}</label>
+                  <input id="firstName" name="firstName" type="text" autocomplete="given-name" required />
+                </div>
+                <div class="field">
+                  <label for="lastName">{{contact-label-last-name}}</label>
+                  <input id="lastName" name="lastName" type="text" autocomplete="family-name" required />
+                </div>
+              </div>
+
+              <div class="field">
+                <label for="email">{{contact-label-email}}</label>
+                <input id="email" name="email" type="email" autocomplete="email" required />
+              </div>
+
+              <div class="field">
+                <label for="organization">{{contact-label-org}}</label>
+                <input id="organization" name="organization" type="text" autocomplete="organization" />
+              </div>
+
+              <div class="field">
+                <label for="message">{{contact-label-message}}</label>
+                <textarea id="message" name="message" rows="6" required></textarea>
+              </div>
+
+              <div class="contact-form__footer">
+                <div class="turnstile-area">
+                  <div id="turnstileMount" class="turnstile-slot" aria-live="polite"></div>
+                  <p class="turnstile-note" id="turnstileNote"></p>
+                </div>
+
+                <button class="button button--dark contact-submit" id="contactSubmit" type="submit">
+                  {{contact-submit}}
+                </button>
+              </div>
+
+              <p class="form-status" id="contactStatus" role="status" aria-live="polite"></p>
+            </form>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="footer-top">
+          <div class="footer-brand">
+            <a class="brand brand--footer" href="#top" data-logo-compact>{{logo-text}}</a>
+            <p>{{footer-tagline}}</p>
+          </div>
+
+          <div class="footer-nav">
+            <div class="footer-nav__column">
+              <p class="footer-nav__heading">{{footer-nav-heading}}</p>
+              <a href="#mission">{{nav-link-mission}}</a>
+              <a href="#services">{{nav-link-services}}</a>
+              <a href="#team">{{nav-link-team}}</a>
+            </div>
+
+            <div class="footer-nav__column">
+              <p class="footer-nav__heading">{{footer-connect-heading}}</p>
+              <a href="#" data-contact-email-link>{{footer-email-link-label}}</a>
+              <a href="#contact">{{footer-contact-link-label}}</a>
+            </div>
+          </div>
         </div>
-        <div class="control-group">
-          <label for="bodyFont">Body Font</label>
-          <select id="bodyFont">
-            <option value="'IBM Plex Mono', monospace">IBM Plex Mono</option>
-            <option value="'Nunito Variable', sans-serif">Nunito</option>
-            <option value="'Work Sans Variable', sans-serif">Work Sans</option>
-            <option value="'Source Sans 3 Variable', sans-serif">Source Sans 3</option>
-            <option value="'Inter Variable', sans-serif">Inter</option>
-          </select>
+
+        <div class="footer-divider" aria-hidden="true"></div>
+
+        <div class="footer-bottom">
+          <p>{{footer-copyright}}</p>
+          <p>{{footer-location}}</p>
         </div>
-      </div>
+      </footer>
     </div>
-
-    <!-- Hero -->
-    <section class="hero">
-      <div class="container">
-        <div class="logo-text">{{logo-text}}</div>
-        <p class="tagline">{{hero-tagline}}</p>
-      </div>
-    </section>
-
-    <!-- Mission -->
-    <section class="mission">
-      <div class="container">
-        <h2>{{mission-heading}}</h2>
-        <p>{{mission-intro}}</p>
-
-        <div class="principles-grid">
-          <div class="principle-card">
-            <h3>{{principle-1-title}}</h3>
-            <p>{{principle-1-body}}</p>
-          </div>
-          <div class="principle-card">
-            <h3>{{principle-2-title}}</h3>
-            <p>{{principle-2-body}}</p>
-          </div>
-          <div class="principle-card">
-            <h3>{{principle-3-title}}</h3>
-            <p>{{principle-3-body}}</p>
-          </div>
-          <div class="principle-card">
-            <h3>{{principle-4-title}}</h3>
-            <p>{{principle-4-body}}</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Team -->
-    <section class="team">
-      <div class="container">
-        <h2>{{team-heading}}</h2>
-        <h3>{{team-name}}</h3>
-        <div class="team-bio">{{{team-bio}}}</div>
-      </div>
-    </section>
-
-    <!-- Services -->
-    <section class="services">
-      <div class="container">
-        <h2>{{services-heading}}</h2>
-        <div class="services-grid">
-          <div class="service-card">
-            <h3>{{service-1-title}}</h3>
-            <p>{{service-1-body}}</p>
-          </div>
-          <div class="service-card">
-            <h3>{{service-2-title}}</h3>
-            <p>{{service-2-body}}</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-      <div class="container">
-        <div class="logo-text">{{logo-text}}</div>
-        <p>{{footer-note}}</p>
-      </div>
-    </footer>
 
     <script type="module" src="/src/main.js"></script>
   </body>
