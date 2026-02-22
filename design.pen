@@ -2012,7 +2012,7 @@
                           "fill": "$color-rich-soil",
                           "content": "Relational Capacity Building",
                           "fontFamily": "Archivo Black",
-                          "fontSize": 20,
+                          "fontSize": 22,
                           "fontWeight": "normal"
                         },
                         {
@@ -2073,9 +2073,9 @@
                           "fill": "$color-rich-soil",
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
-                          "content": "Cooperatively-Controlled Digital Infrastructure",
+                          "content": "Cooperatively Digital Infrastructure",
                           "fontFamily": "Archivo Black",
-                          "fontSize": 20,
+                          "fontSize": 22,
                           "fontWeight": "normal"
                         },
                         {
@@ -2146,7 +2146,7 @@
                           "fill": "$color-rich-soil",
                           "content": "Ecosystem Growth",
                           "fontFamily": "Archivo Black",
-                          "fontSize": 20,
+                          "fontSize": 22,
                           "fontWeight": "normal"
                         },
                         {
@@ -2207,7 +2207,7 @@
                           "fill": "$color-warm-white",
                           "content": "Economic Incentive Alignment",
                           "fontFamily": "Archivo Black",
-                          "fontSize": 20,
+                          "fontSize": 22,
                           "fontWeight": "normal"
                         },
                         {
@@ -2304,7 +2304,7 @@
                       "fill": "$color-rich-soil",
                       "content": "Technical Assistance",
                       "fontFamily": "Archivo Black",
-                      "fontSize": 22,
+                      "fontSize": 24,
                       "fontWeight": "normal"
                     },
                     {
@@ -2353,7 +2353,7 @@
                       "fill": "$color-warm-white",
                       "content": "Custom Software Solutions",
                       "fontFamily": "Archivo Black",
-                      "fontSize": 22,
+                      "fontSize": 24,
                       "fontWeight": "normal"
                     },
                     {
@@ -2645,7 +2645,7 @@
                           "fill": "$color-mushroom-beige",
                           "content": "New Team Member",
                           "fontFamily": "Archivo Black",
-                          "fontSize": 20,
+                          "fontSize": 22,
                           "fontWeight": "normal"
                         },
                         {
@@ -3521,7 +3521,7 @@
               "fill": "$color-healthy-growth",
               "content": "OUR MISSION",
               "fontFamily": "Archivo Black",
-              "fontSize": 16,
+              "fontSize": 18,
               "fontWeight": "normal",
               "letterSpacing": 3
             },
@@ -3545,7 +3545,7 @@
                   "lineHeight": 1.35,
                   "textAlign": "center",
                   "fontFamily": "Archivo Black",
-                  "fontSize": 22,
+                  "fontSize": 24,
                   "fontWeight": "normal"
                 },
                 {
@@ -3619,7 +3619,7 @@
                       "fill": "$color-rich-soil",
                       "content": "Relational Capacity Building",
                       "fontFamily": "Archivo Black",
-                      "fontSize": 17,
+                      "fontSize": 20,
                       "fontWeight": "normal"
                     },
                     {
@@ -3681,7 +3681,7 @@
                       "width": "fill_container",
                       "content": "Cooperatively-Controlled Digital Infrastructure",
                       "fontFamily": "Archivo Black",
-                      "fontSize": 17,
+                      "fontSize": 20,
                       "fontWeight": "normal"
                     },
                     {
@@ -3741,7 +3741,7 @@
                       "fill": "$color-rich-soil",
                       "content": "Ecosystem Growth",
                       "fontFamily": "Archivo Black",
-                      "fontSize": 17,
+                      "fontSize": 20,
                       "fontWeight": "normal"
                     },
                     {
@@ -3801,7 +3801,7 @@
                       "fill": "$color-warm-white",
                       "content": "Economic Incentive Alignment",
                       "fontFamily": "Archivo Black",
-                      "fontSize": 17,
+                      "fontSize": 20,
                       "fontWeight": "normal"
                     },
                     {
@@ -3845,7 +3845,7 @@
               "fill": "$color-healthy-growth",
               "content": "SERVICES",
               "fontFamily": "Archivo Black",
-              "fontSize": 16,
+              "fontSize": 18,
               "fontWeight": "normal",
               "letterSpacing": 3
             },
@@ -3859,7 +3859,7 @@
               "content": "How We Support Our Partners",
               "textAlign": "center",
               "fontFamily": "Archivo Black",
-              "fontSize": 24,
+              "fontSize": 26,
               "fontWeight": "normal"
             },
             {
@@ -3899,7 +3899,7 @@
                       "fill": "$color-rich-soil",
                       "content": "Technical Assistance",
                       "fontFamily": "Archivo Black",
-                      "fontSize": 19,
+                      "fontSize": 22,
                       "fontWeight": "normal"
                     },
                     {
@@ -3947,7 +3947,7 @@
                       "fill": "$color-warm-white",
                       "content": "Custom Software Solutions",
                       "fontFamily": "Archivo Black",
-                      "fontSize": 19,
+                      "fontSize": 22,
                       "fontWeight": "normal"
                     },
                     {
@@ -3991,7 +3991,7 @@
               "fill": "$color-healthy-growth",
               "content": "OUR TEAM",
               "fontFamily": "Archivo Black",
-              "fontSize": 16,
+              "fontSize": 18,
               "fontWeight": "normal",
               "letterSpacing": 3
             },
@@ -4073,7 +4073,7 @@
                           "fill": "$color-rich-soil",
                           "content": "Nikka Ghalili",
                           "fontFamily": "Archivo Black",
-                          "fontSize": 22,
+                          "fontSize": 24,
                           "fontWeight": "normal"
                         },
                         {
@@ -4208,7 +4208,7 @@
                       "fill": "$color-mushroom-beige",
                       "content": "New Team Member",
                       "fontFamily": "Archivo Black",
-                      "fontSize": 17,
+                      "fontSize": 20,
                       "fontWeight": "normal"
                     },
                     {
@@ -4254,7 +4254,7 @@
               "content": "Get In Touch",
               "textAlign": "center",
               "fontFamily": "Archivo Black",
-              "fontSize": 26,
+              "fontSize": 28,
               "fontWeight": "normal"
             },
             {
@@ -4825,6 +4825,8 @@
                   "name": "footerCopy",
                   "opacity": 0.5,
                   "fill": "$color-warm-white",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
                   "content": "© 2026 Mycelium Tech Coop",
                   "textAlign": "center",
                   "fontFamily": "IBM Plex Mono",
@@ -4837,6 +4839,8 @@
                   "name": "footerMeta",
                   "opacity": 0.5,
                   "fill": "$color-warm-white",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
                   "content": "Worker-owned & community-driven · New Orleans, LA",
                   "textAlign": "center",
                   "fontFamily": "IBM Plex Mono",
