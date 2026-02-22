@@ -1715,8 +1715,8 @@
                   "fill": "$color-rich-soil",
                   "content": "Mission",
                   "fontFamily": "IBM Plex Mono",
-                  "fontSize": 14,
-                  "fontWeight": "500"
+                  "fontSize": 16,
+                  "fontWeight": "600"
                 },
                 {
                   "type": "text",
@@ -1726,8 +1726,8 @@
                   "fill": "$color-rich-soil",
                   "content": "Services",
                   "fontFamily": "IBM Plex Mono",
-                  "fontSize": 14,
-                  "fontWeight": "500"
+                  "fontSize": 16,
+                  "fontWeight": "600"
                 },
                 {
                   "type": "text",
@@ -1737,8 +1737,8 @@
                   "fill": "$color-rich-soil",
                   "content": "Team",
                   "fontFamily": "IBM Plex Mono",
-                  "fontSize": 14,
-                  "fontWeight": "500"
+                  "fontSize": 16,
+                  "fontWeight": "600"
                 },
                 {
                   "type": "frame",
@@ -1759,7 +1759,7 @@
                       "fill": "$color-warm-white",
                       "content": "Get In Touch",
                       "fontFamily": "IBM Plex Mono",
-                      "fontSize": 13,
+                      "fontSize": 16,
                       "fontWeight": "600"
                     }
                   ]
@@ -1802,7 +1802,7 @@
               "content": "MYCELIUM TECH CO-OP",
               "textAlign": "center",
               "fontFamily": "Rubik Maze",
-              "fontSize": 56,
+              "fontSize": 78,
               "fontWeight": "normal"
             },
             {
@@ -1812,13 +1812,13 @@
               "opacity": 0.92,
               "fill": "$color-warm-white",
               "textGrowth": "fixed-width",
-              "width": 800,
+              "width": 860,
               "content": "Advancing technological sovereignty for the solidarity economy by putting workers and their communities in control of their technological tools and infrastructure. Through deep, relational collaboration, we co-create solutions that serve both the material and moral imperatives of our partners.",
               "lineHeight": 1.8,
               "textAlign": "center",
               "fontFamily": "IBM Plex Mono",
               "fontSize": 18,
-              "fontWeight": "normal"
+              "fontWeight": "600"
             },
             {
               "type": "frame",
@@ -1846,7 +1846,7 @@
                       "fill": "$color-warm-white",
                       "content": "Learn About Us",
                       "fontFamily": "IBM Plex Mono",
-                      "fontSize": 15,
+                      "fontSize": 16,
                       "fontWeight": "600"
                     }
                   ]
@@ -1875,7 +1875,7 @@
                       "fill": "$color-rich-soil",
                       "content": "Our Services",
                       "fontFamily": "IBM Plex Mono",
-                      "fontSize": 15,
+                      "fontSize": 16,
                       "fontWeight": "600"
                     }
                   ]
@@ -1944,8 +1944,8 @@
                   "lineHeight": 1.8,
                   "textAlign": "center",
                   "fontFamily": "IBM Plex Mono",
-                  "fontSize": 16,
-                  "fontWeight": "normal"
+                  "fontSize": 18,
+                  "fontWeight": "600"
                 }
               ]
             },
@@ -2026,8 +2026,8 @@
                           "content": "Our collaborators are the experts of their own experiences. We start from a strong relational foundation before engaging in any technical work, co-creating solutions anchored to the actual needs of our partners.",
                           "lineHeight": 1.75,
                           "fontFamily": "IBM Plex Mono",
-                          "fontSize": 15,
-                          "fontWeight": "normal"
+                          "fontSize": 16,
+                          "fontWeight": "600"
                         }
                       ]
                     },
@@ -2089,8 +2089,8 @@
                           "content": "We adopt and build upon the open-source ecosystem and develop custom tools when needed, giving communities deeper control over their technologies and a stronger foundation for support and customization.",
                           "lineHeight": 1.75,
                           "fontFamily": "IBM Plex Mono",
-                          "fontSize": 15,
-                          "fontWeight": "normal"
+                          "fontSize": 16,
+                          "fontWeight": "600"
                         }
                       ]
                     }
@@ -2160,8 +2160,8 @@
                           "content": "We believe in scaling horizontally through peer networks of autonomous groups, sharing learnings, resources, and capacity so our movement can have a wide reach without concentrating power within a single entity.",
                           "lineHeight": 1.75,
                           "fontFamily": "IBM Plex Mono",
-                          "fontSize": 15,
-                          "fontWeight": "normal"
+                          "fontSize": 16,
+                          "fontWeight": "600"
                         }
                       ]
                     },
@@ -2221,8 +2221,8 @@
                           "content": "We use sliding-scale pricing and work toward funding models of pooled resources via cooperative developers, federations, and other collective entities that mirror the ecosystem we work in. When our collaborators thrive, so do we.",
                           "lineHeight": 1.75,
                           "fontFamily": "IBM Plex Mono",
-                          "fontSize": 15,
-                          "fontWeight": "normal"
+                          "fontSize": 16,
+                          "fontWeight": "600"
                         }
                       ]
                     }
@@ -2318,8 +2318,8 @@
                       "content": "We help cooperatives and aligned organizations navigate the full lifecycle of their technology needs — from troubleshooting existing platforms and evaluating current systems, to integrating workflows across multiple platforms, recommending tailored solutions, vetting software vendors, onboarding staff onto new systems, and guiding transitions to open-source or values-aligned alternatives.",
                       "lineHeight": 1.75,
                       "fontFamily": "IBM Plex Mono",
-                      "fontSize": 15,
-                      "fontWeight": "normal"
+                      "fontSize": 16,
+                      "fontWeight": "600"
                     }
                   ]
                 },
@@ -2367,8 +2367,8 @@
                       "content": "When the right tool doesn't exist yet, we work alongside our partners to collaboratively design and build custom software from the ground up. Our deeply relational process ensures what we build is anchored in actual needs — from governance tools for cooperative decision-making, to member-facing platforms and tailored workflow applications.",
                       "lineHeight": 1.75,
                       "fontFamily": "IBM Plex Mono",
-                      "fontSize": 15,
-                      "fontWeight": "normal"
+                      "fontSize": 16,
+                      "fontWeight": "600"
                     }
                   ]
                 }
@@ -2454,8 +2454,8 @@
                           "fill": "$color-mushroom-beige",
                           "content": "Photo",
                           "fontFamily": "IBM Plex Mono",
-                          "fontSize": 12,
-                          "fontWeight": "normal"
+                          "fontSize": 16,
+                          "fontWeight": "600"
                         }
                       ]
                     },
@@ -2488,7 +2488,7 @@
                           "fill": "$color-healthy-growth",
                           "content": "Co-Founder & Worker-Owner",
                           "fontFamily": "IBM Plex Mono",
-                          "fontSize": 14,
+                          "fontSize": 16,
                           "fontWeight": "600"
                         },
                         {
@@ -2511,8 +2511,8 @@
                           "content": "Nikka's journey as a software developer and informational technologist in New Orleans has been shaped by movement across cultures and continents. Born to a Persian/Iranian family in Baton Rouge and raised in Dalian, China, he weaves together perspectives from multiple worlds into his tech and community work.",
                           "lineHeight": 1.75,
                           "fontFamily": "IBM Plex Mono",
-                          "fontSize": 14,
-                          "fontWeight": "normal"
+                          "fontSize": 16,
+                          "fontWeight": "600"
                         },
                         {
                           "type": "text",
@@ -2525,8 +2525,8 @@
                           "content": "Since starting his software development career in 2011, Nikka has built everything from mobile apps to data pipelines to AI-powered applications. After years in the corporate tech scene at companies ranging from startups to firms like LinkedIn, a growing disconnect with its values led him to step away from Silicon Valley's corporate world.",
                           "lineHeight": 1.75,
                           "fontFamily": "IBM Plex Mono",
-                          "fontSize": 14,
-                          "fontWeight": "normal"
+                          "fontSize": 16,
+                          "fontWeight": "600"
                         },
                         {
                           "type": "text",
@@ -2539,8 +2539,8 @@
                           "content": "Today, Nikka is deeply involved in New Orleans' solidarity economy, passionate about movements shifting away from extractive capitalism toward economic models rooted in mutual aid and cooperation. Through Mycelium Tech Coop, he's working to help the solidarity economy movement achieve tech sovereignty.",
                           "lineHeight": 1.75,
                           "fontFamily": "IBM Plex Mono",
-                          "fontSize": 14,
-                          "fontWeight": "normal"
+                          "fontSize": 16,
+                          "fontWeight": "600"
                         },
                         {
                           "type": "frame",
@@ -2575,8 +2575,8 @@
                               "content": "What drives Nikka isn't the idea that he can single-handedly transform the world, but rather his belief in the power of interconnected movements working together.",
                               "lineHeight": 1.7,
                               "fontFamily": "IBM Plex Mono",
-                              "fontSize": 14,
-                              "fontWeight": "500",
+                              "fontSize": 16,
+                              "fontWeight": "600",
                               "fontStyle": "italic"
                             }
                           ]
@@ -2659,8 +2659,8 @@
                           "content": "Add a new member in content/team.md using the team-N-name, team-N-role, team-N-bio pattern.",
                           "lineHeight": 1.6,
                           "fontFamily": "IBM Plex Mono",
-                          "fontSize": 13,
-                          "fontWeight": "normal"
+                          "fontSize": 16,
+                          "fontWeight": "600"
                         }
                       ]
                     }
@@ -2710,8 +2710,8 @@
               "lineHeight": 1.75,
               "textAlign": "center",
               "fontFamily": "IBM Plex Mono",
-              "fontSize": 15,
-              "fontWeight": "normal"
+              "fontSize": 16,
+              "fontWeight": "600"
             },
             {
               "type": "frame",
@@ -2743,7 +2743,7 @@
                           "fill": "$color-rich-soil",
                           "content": "First Name",
                           "fontFamily": "IBM Plex Mono",
-                          "fontSize": 13,
+                          "fontSize": 16,
                           "fontWeight": "600"
                         },
                         {
@@ -2773,8 +2773,8 @@
                               "fill": "$color-mushroom-beige",
                               "content": "Jane",
                               "fontFamily": "IBM Plex Mono",
-                              "fontSize": 14,
-                              "fontWeight": "normal"
+                              "fontSize": 16,
+                              "fontWeight": "600"
                             }
                           ]
                         }
@@ -2795,7 +2795,7 @@
                           "fill": "$color-rich-soil",
                           "content": "Last Name",
                           "fontFamily": "IBM Plex Mono",
-                          "fontSize": 13,
+                          "fontSize": 16,
                           "fontWeight": "600"
                         },
                         {
@@ -2825,8 +2825,8 @@
                               "fill": "$color-mushroom-beige",
                               "content": "Doe",
                               "fontFamily": "IBM Plex Mono",
-                              "fontSize": 14,
-                              "fontWeight": "normal"
+                              "fontSize": 16,
+                              "fontWeight": "600"
                             }
                           ]
                         }
@@ -2849,7 +2849,7 @@
                       "fill": "$color-rich-soil",
                       "content": "Email",
                       "fontFamily": "IBM Plex Mono",
-                      "fontSize": 13,
+                      "fontSize": 16,
                       "fontWeight": "600"
                     },
                     {
@@ -2879,8 +2879,8 @@
                           "fill": "$color-mushroom-beige",
                           "content": "jane@example.org",
                           "fontFamily": "IBM Plex Mono",
-                          "fontSize": 14,
-                          "fontWeight": "normal"
+                          "fontSize": 16,
+                          "fontWeight": "600"
                         }
                       ]
                     }
@@ -2901,7 +2901,7 @@
                       "fill": "$color-rich-soil",
                       "content": "Organization (optional)",
                       "fontFamily": "IBM Plex Mono",
-                      "fontSize": 13,
+                      "fontSize": 16,
                       "fontWeight": "600"
                     },
                     {
@@ -2931,8 +2931,8 @@
                           "fill": "$color-mushroom-beige",
                           "content": "Your cooperative or organization",
                           "fontFamily": "IBM Plex Mono",
-                          "fontSize": 14,
-                          "fontWeight": "normal"
+                          "fontSize": 16,
+                          "fontWeight": "600"
                         }
                       ]
                     }
@@ -2953,7 +2953,7 @@
                       "fill": "$color-rich-soil",
                       "content": "Message",
                       "fontFamily": "IBM Plex Mono",
-                      "fontSize": 13,
+                      "fontSize": 16,
                       "fontWeight": "600"
                     },
                     {
@@ -2983,8 +2983,8 @@
                           "content": "Tell us a bit about what you're working on and how we might help...",
                           "lineHeight": 1.6,
                           "fontFamily": "IBM Plex Mono",
-                          "fontSize": 14,
-                          "fontWeight": "normal"
+                          "fontSize": 16,
+                          "fontWeight": "600"
                         }
                       ]
                     }
@@ -3040,7 +3040,7 @@
                           "fill": "#333333",
                           "content": "Verify you are human",
                           "fontFamily": "Arial",
-                          "fontSize": 13,
+                          "fontSize": 16,
                           "fontWeight": "normal"
                         },
                         {
@@ -3085,7 +3085,7 @@
                           "fill": "$color-warm-white",
                           "content": "Send Message",
                           "fontFamily": "IBM Plex Mono",
-                          "fontSize": 15,
+                          "fontSize": 16,
                           "fontWeight": "600"
                         }
                       ]
@@ -3145,8 +3145,8 @@
                       "content": "Advancing technological sovereignty\nfor the solidarity economy.",
                       "lineHeight": 1.6,
                       "fontFamily": "IBM Plex Mono",
-                      "fontSize": 14,
-                      "fontWeight": "normal"
+                      "fontSize": 16,
+                      "fontWeight": "600"
                     }
                   ]
                 },
@@ -3170,7 +3170,7 @@
                           "fill": "$color-warm-white",
                           "content": "Navigate",
                           "fontFamily": "IBM Plex Mono",
-                          "fontSize": 13,
+                          "fontSize": 16,
                           "fontWeight": "600",
                           "letterSpacing": 1
                         },
@@ -3182,8 +3182,8 @@
                           "fill": "$color-warm-white",
                           "content": "Mission",
                           "fontFamily": "IBM Plex Mono",
-                          "fontSize": 14,
-                          "fontWeight": "normal"
+                          "fontSize": 16,
+                          "fontWeight": "600"
                         },
                         {
                           "type": "text",
@@ -3193,8 +3193,8 @@
                           "fill": "$color-warm-white",
                           "content": "Services",
                           "fontFamily": "IBM Plex Mono",
-                          "fontSize": 14,
-                          "fontWeight": "normal"
+                          "fontSize": 16,
+                          "fontWeight": "600"
                         },
                         {
                           "type": "text",
@@ -3204,8 +3204,8 @@
                           "fill": "$color-warm-white",
                           "content": "Team",
                           "fontFamily": "IBM Plex Mono",
-                          "fontSize": 14,
-                          "fontWeight": "normal"
+                          "fontSize": 16,
+                          "fontWeight": "600"
                         }
                       ]
                     },
@@ -3223,7 +3223,7 @@
                           "fill": "$color-warm-white",
                           "content": "Connect",
                           "fontFamily": "IBM Plex Mono",
-                          "fontSize": 13,
+                          "fontSize": 16,
                           "fontWeight": "600",
                           "letterSpacing": 1
                         },
@@ -3235,8 +3235,8 @@
                           "fill": "$color-warm-white",
                           "content": "Email Us",
                           "fontFamily": "IBM Plex Mono",
-                          "fontSize": 14,
-                          "fontWeight": "normal"
+                          "fontSize": 16,
+                          "fontWeight": "600"
                         },
                         {
                           "type": "text",
@@ -3246,8 +3246,8 @@
                           "fill": "$color-warm-white",
                           "content": "Contact Form",
                           "fontFamily": "IBM Plex Mono",
-                          "fontSize": 14,
-                          "fontWeight": "normal"
+                          "fontSize": 16,
+                          "fontWeight": "600"
                         }
                       ]
                     }
@@ -3280,8 +3280,8 @@
                   "fill": "$color-warm-white",
                   "content": "© 2026 Mycelium Tech Coop. Worker-owned & community-driven.",
                   "fontFamily": "IBM Plex Mono",
-                  "fontSize": 12,
-                  "fontWeight": "normal"
+                  "fontSize": 16,
+                  "fontWeight": "600"
                 },
                 {
                   "type": "text",
@@ -3291,8 +3291,8 @@
                   "fill": "$color-warm-white",
                   "content": "New Orleans, LA",
                   "fontFamily": "IBM Plex Mono",
-                  "fontSize": 12,
-                  "fontWeight": "normal"
+                  "fontSize": 16,
+                  "fontWeight": "600"
                 }
               ]
             }
@@ -3415,7 +3415,7 @@
               "content": "MYCELIUM TECH CO-OP",
               "textAlign": "center",
               "fontFamily": "Rubik Maze",
-              "fontSize": 32,
+              "fontSize": 48,
               "fontWeight": "normal"
             },
             {
@@ -3430,8 +3430,8 @@
               "lineHeight": 1.75,
               "textAlign": "center",
               "fontFamily": "IBM Plex Mono",
-              "fontSize": 14,
-              "fontWeight": "normal"
+              "fontSize": 16,
+              "fontWeight": "600"
             },
             {
               "type": "frame",
@@ -3464,7 +3464,7 @@
                       "fill": "$color-warm-white",
                       "content": "Learn About Us",
                       "fontFamily": "IBM Plex Mono",
-                      "fontSize": 15,
+                      "fontSize": 16,
                       "fontWeight": "600"
                     }
                   ]
@@ -3491,7 +3491,7 @@
                       "fill": "$color-rich-soil",
                       "content": "Our Services",
                       "fontFamily": "IBM Plex Mono",
-                      "fontSize": 15,
+                      "fontSize": 16,
                       "fontWeight": "600"
                     }
                   ]
@@ -3560,8 +3560,8 @@
                   "lineHeight": 1.75,
                   "textAlign": "center",
                   "fontFamily": "IBM Plex Mono",
-                  "fontSize": 14,
-                  "fontWeight": "normal"
+                  "fontSize": 16,
+                  "fontWeight": "600"
                 }
               ]
             },
@@ -3633,8 +3633,8 @@
                       "content": "Our collaborators are the experts of their own experiences. We start from a strong relational foundation before engaging in any technical work, co-creating solutions anchored to the actual needs of our partners.",
                       "lineHeight": 1.7,
                       "fontFamily": "IBM Plex Mono",
-                      "fontSize": 13,
-                      "fontWeight": "normal"
+                      "fontSize": 16,
+                      "fontWeight": "600"
                     }
                   ]
                 },
@@ -3695,8 +3695,8 @@
                       "content": "We adopt and build upon the open-source ecosystem and develop custom tools when needed, giving communities deeper control over their technologies and a stronger foundation for support and customization.",
                       "lineHeight": 1.7,
                       "fontFamily": "IBM Plex Mono",
-                      "fontSize": 13,
-                      "fontWeight": "normal"
+                      "fontSize": 16,
+                      "fontWeight": "600"
                     }
                   ]
                 },
@@ -3755,8 +3755,8 @@
                       "content": "We believe in scaling horizontally through peer networks of autonomous groups, sharing learnings, resources, and capacity so our movement can have a wide reach without concentrating power within a single entity.",
                       "lineHeight": 1.7,
                       "fontFamily": "IBM Plex Mono",
-                      "fontSize": 13,
-                      "fontWeight": "normal"
+                      "fontSize": 16,
+                      "fontWeight": "600"
                     }
                   ]
                 },
@@ -3815,8 +3815,8 @@
                       "content": "We use sliding-scale pricing and work toward funding models of pooled resources via cooperative developers, federations, and other collective entities that mirror the ecosystem we work in. When our collaborators thrive, so do we.",
                       "lineHeight": 1.7,
                       "fontFamily": "IBM Plex Mono",
-                      "fontSize": 13,
-                      "fontWeight": "normal"
+                      "fontSize": 16,
+                      "fontWeight": "600"
                     }
                   ]
                 }
@@ -3913,8 +3913,8 @@
                       "content": "We help cooperatives and aligned organizations navigate the full lifecycle of their technology needs — from troubleshooting existing platforms and evaluating current systems, to integrating workflows across multiple platforms, recommending tailored solutions, vetting software vendors, onboarding staff onto new systems, and guiding transitions to open-source or values-aligned alternatives.",
                       "lineHeight": 1.7,
                       "fontFamily": "IBM Plex Mono",
-                      "fontSize": 13,
-                      "fontWeight": "normal"
+                      "fontSize": 16,
+                      "fontWeight": "600"
                     }
                   ]
                 },
@@ -3961,8 +3961,8 @@
                       "content": "When the right tool doesn't exist yet, we work alongside our partners to collaboratively design and build custom software from the ground up. Our deeply relational process ensures what we build is anchored in actual needs — from governance tools for cooperative decision-making, to member-facing platforms and tailored workflow applications.",
                       "lineHeight": 1.7,
                       "fontFamily": "IBM Plex Mono",
-                      "fontSize": 13,
-                      "fontWeight": "normal"
+                      "fontSize": 16,
+                      "fontWeight": "600"
                     }
                   ]
                 }
@@ -4049,8 +4049,8 @@
                           "fill": "$color-mushroom-beige",
                           "content": "Photo",
                           "fontFamily": "IBM Plex Mono",
-                          "fontSize": 11,
-                          "fontWeight": "normal"
+                          "fontSize": 16,
+                          "fontWeight": "600"
                         }
                       ]
                     },
@@ -4083,7 +4083,7 @@
                           "fill": "$color-healthy-growth",
                           "content": "Co-Founder & Worker-Owner",
                           "fontFamily": "IBM Plex Mono",
-                          "fontSize": 13,
+                          "fontSize": 16,
                           "fontWeight": "600"
                         },
                         {
@@ -4106,8 +4106,8 @@
                           "content": "Nikka's journey as a software developer and informational technologist in New Orleans has been shaped by movement across cultures and continents. Born to a Persian/Iranian family in Baton Rouge and raised in Dalian, China, he weaves together perspectives from multiple worlds into his tech and community work.",
                           "lineHeight": 1.7,
                           "fontFamily": "IBM Plex Mono",
-                          "fontSize": 13,
-                          "fontWeight": "normal"
+                          "fontSize": 16,
+                          "fontWeight": "600"
                         },
                         {
                           "type": "text",
@@ -4120,8 +4120,8 @@
                           "content": "Since starting his software development career in 2011, Nikka has built everything from mobile apps to data pipelines to AI-powered applications. After years in the corporate tech scene at companies ranging from startups to firms like LinkedIn, a growing disconnect with its values led him to step away from Silicon Valley's corporate world.",
                           "lineHeight": 1.7,
                           "fontFamily": "IBM Plex Mono",
-                          "fontSize": 13,
-                          "fontWeight": "normal"
+                          "fontSize": 16,
+                          "fontWeight": "600"
                         },
                         {
                           "type": "text",
@@ -4134,8 +4134,8 @@
                           "content": "Today, Nikka is deeply involved in New Orleans' solidarity economy, passionate about movements shifting away from extractive capitalism toward economic models rooted in mutual aid and cooperation. Through Mycelium Tech Coop, he's working to help the solidarity economy movement achieve tech sovereignty.",
                           "lineHeight": 1.7,
                           "fontFamily": "IBM Plex Mono",
-                          "fontSize": 13,
-                          "fontWeight": "normal"
+                          "fontSize": 16,
+                          "fontWeight": "600"
                         },
                         {
                           "type": "frame",
@@ -4170,8 +4170,8 @@
                               "content": "What drives Nikka isn't the idea that he can single-handedly transform the world, but rather his belief in the power of interconnected movements working together.",
                               "lineHeight": 1.7,
                               "fontFamily": "IBM Plex Mono",
-                              "fontSize": 13,
-                              "fontWeight": "500",
+                              "fontSize": 16,
+                              "fontWeight": "600",
                               "fontStyle": "italic"
                             }
                           ]
@@ -4222,8 +4222,8 @@
                       "content": "Add a new member in content/team.md using the team-N-name, team-N-role, team-N-bio pattern.",
                       "lineHeight": 1.55,
                       "fontFamily": "IBM Plex Mono",
-                      "fontSize": 12,
-                      "fontWeight": "normal"
+                      "fontSize": 16,
+                      "fontWeight": "600"
                     }
                   ]
                 }
@@ -4269,8 +4269,8 @@
               "lineHeight": 1.7,
               "textAlign": "center",
               "fontFamily": "IBM Plex Mono",
-              "fontSize": 13,
-              "fontWeight": "normal"
+              "fontSize": 16,
+              "fontWeight": "600"
             },
             {
               "type": "frame",
@@ -4295,7 +4295,7 @@
                       "fill": "$color-rich-soil",
                       "content": "First Name",
                       "fontFamily": "IBM Plex Mono",
-                      "fontSize": 13,
+                      "fontSize": 16,
                       "fontWeight": "600"
                     },
                     {
@@ -4325,8 +4325,8 @@
                           "fill": "$color-mushroom-beige",
                           "content": "Jane",
                           "fontFamily": "IBM Plex Mono",
-                          "fontSize": 14,
-                          "fontWeight": "normal"
+                          "fontSize": 16,
+                          "fontWeight": "600"
                         }
                       ]
                     }
@@ -4347,7 +4347,7 @@
                       "fill": "$color-rich-soil",
                       "content": "Last Name",
                       "fontFamily": "IBM Plex Mono",
-                      "fontSize": 13,
+                      "fontSize": 16,
                       "fontWeight": "600"
                     },
                     {
@@ -4377,8 +4377,8 @@
                           "fill": "$color-mushroom-beige",
                           "content": "Doe",
                           "fontFamily": "IBM Plex Mono",
-                          "fontSize": 14,
-                          "fontWeight": "normal"
+                          "fontSize": 16,
+                          "fontWeight": "600"
                         }
                       ]
                     }
@@ -4399,7 +4399,7 @@
                       "fill": "$color-rich-soil",
                       "content": "Email",
                       "fontFamily": "IBM Plex Mono",
-                      "fontSize": 13,
+                      "fontSize": 16,
                       "fontWeight": "600"
                     },
                     {
@@ -4429,8 +4429,8 @@
                           "fill": "$color-mushroom-beige",
                           "content": "jane@example.org",
                           "fontFamily": "IBM Plex Mono",
-                          "fontSize": 14,
-                          "fontWeight": "normal"
+                          "fontSize": 16,
+                          "fontWeight": "600"
                         }
                       ]
                     }
@@ -4451,7 +4451,7 @@
                       "fill": "$color-rich-soil",
                       "content": "Organization (optional)",
                       "fontFamily": "IBM Plex Mono",
-                      "fontSize": 13,
+                      "fontSize": 16,
                       "fontWeight": "600"
                     },
                     {
@@ -4481,8 +4481,8 @@
                           "fill": "$color-mushroom-beige",
                           "content": "Your cooperative or organization",
                           "fontFamily": "IBM Plex Mono",
-                          "fontSize": 14,
-                          "fontWeight": "normal"
+                          "fontSize": 16,
+                          "fontWeight": "600"
                         }
                       ]
                     }
@@ -4503,7 +4503,7 @@
                       "fill": "$color-rich-soil",
                       "content": "Message",
                       "fontFamily": "IBM Plex Mono",
-                      "fontSize": 13,
+                      "fontSize": 16,
                       "fontWeight": "600"
                     },
                     {
@@ -4533,8 +4533,8 @@
                           "content": "Tell us a bit about what you're working on and how we might help...",
                           "lineHeight": 1.6,
                           "fontFamily": "IBM Plex Mono",
-                          "fontSize": 13,
-                          "fontWeight": "normal"
+                          "fontSize": 16,
+                          "fontWeight": "600"
                         }
                       ]
                     }
@@ -4591,7 +4591,7 @@
                           "fill": "#333333",
                           "content": "Verify you are human",
                           "fontFamily": "Arial",
-                          "fontSize": 13,
+                          "fontSize": 16,
                           "fontWeight": "normal"
                         },
                         {
@@ -4639,7 +4639,7 @@
                           "fill": "$color-warm-white",
                           "content": "Send Message",
                           "fontFamily": "IBM Plex Mono",
-                          "fontSize": 15,
+                          "fontSize": 16,
                           "fontWeight": "600"
                         }
                       ]
@@ -4692,8 +4692,8 @@
                   "content": "Advancing technological sovereignty\nfor the solidarity economy.",
                   "lineHeight": 1.6,
                   "fontFamily": "IBM Plex Mono",
-                  "fontSize": 13,
-                  "fontWeight": "normal"
+                  "fontSize": 16,
+                  "fontWeight": "600"
                 }
               ]
             },
@@ -4718,7 +4718,7 @@
                       "fill": "$color-warm-white",
                       "content": "Navigate",
                       "fontFamily": "IBM Plex Mono",
-                      "fontSize": 12,
+                      "fontSize": 16,
                       "fontWeight": "600",
                       "letterSpacing": 1
                     },
@@ -4730,8 +4730,8 @@
                       "fill": "$color-warm-white",
                       "content": "Mission",
                       "fontFamily": "IBM Plex Mono",
-                      "fontSize": 14,
-                      "fontWeight": "normal"
+                      "fontSize": 16,
+                      "fontWeight": "600"
                     },
                     {
                       "type": "text",
@@ -4741,8 +4741,8 @@
                       "fill": "$color-warm-white",
                       "content": "Services",
                       "fontFamily": "IBM Plex Mono",
-                      "fontSize": 14,
-                      "fontWeight": "normal"
+                      "fontSize": 16,
+                      "fontWeight": "600"
                     },
                     {
                       "type": "text",
@@ -4752,8 +4752,8 @@
                       "fill": "$color-warm-white",
                       "content": "Team",
                       "fontFamily": "IBM Plex Mono",
-                      "fontSize": 14,
-                      "fontWeight": "normal"
+                      "fontSize": 16,
+                      "fontWeight": "600"
                     }
                   ]
                 },
@@ -4771,7 +4771,7 @@
                       "fill": "$color-warm-white",
                       "content": "Connect",
                       "fontFamily": "IBM Plex Mono",
-                      "fontSize": 12,
+                      "fontSize": 16,
                       "fontWeight": "600",
                       "letterSpacing": 1
                     },
@@ -4783,8 +4783,8 @@
                       "fill": "$color-warm-white",
                       "content": "Email Us",
                       "fontFamily": "IBM Plex Mono",
-                      "fontSize": 14,
-                      "fontWeight": "normal"
+                      "fontSize": 16,
+                      "fontWeight": "600"
                     },
                     {
                       "type": "text",
@@ -4794,8 +4794,8 @@
                       "fill": "$color-warm-white",
                       "content": "Contact Form",
                       "fontFamily": "IBM Plex Mono",
-                      "fontSize": 14,
-                      "fontWeight": "normal"
+                      "fontSize": 16,
+                      "fontWeight": "600"
                     }
                   ]
                 }
@@ -4828,8 +4828,8 @@
                   "content": "© 2026 Mycelium Tech Coop",
                   "textAlign": "center",
                   "fontFamily": "IBM Plex Mono",
-                  "fontSize": 11,
-                  "fontWeight": "normal"
+                  "fontSize": 16,
+                  "fontWeight": "600"
                 },
                 {
                   "type": "text",
@@ -4840,8 +4840,8 @@
                   "content": "Worker-owned & community-driven · New Orleans, LA",
                   "textAlign": "center",
                   "fontFamily": "IBM Plex Mono",
-                  "fontSize": 11,
-                  "fontWeight": "normal"
+                  "fontSize": 16,
+                  "fontWeight": "600"
                 }
               ]
             }

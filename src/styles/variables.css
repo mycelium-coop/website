@@ -15,6 +15,7 @@
   --font-header: 'Archivo Black', sans-serif;
   --font-header-weight: 400;
   --font-body: 'IBM Plex Mono', monospace;
+  --font-body-weight: 600;
   --logo-stroke-width: 0.009em;
   --logo-outline-color: var(--color-rich-soil);
 
