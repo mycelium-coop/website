@@ -1984,36 +1984,48 @@
                       "children": [
                         {
                           "type": "frame",
-                          "id": "AAj0g",
-                          "name": "c1IconWrap",
-                          "width": 48,
-                          "height": 48,
-                          "fill": "$color-sage-tint",
-                          "cornerRadius": 12,
-                          "justifyContent": "center",
+                          "id": "YvuTP",
+                          "name": "h1",
+                          "width": "fill_container",
+                          "gap": 16,
                           "alignItems": "center",
                           "children": [
                             {
-                              "type": "icon_font",
-                              "id": "i4cMR",
-                              "name": "card1Icn",
-                              "width": 24,
-                              "height": 24,
-                              "iconFontName": "handshake",
-                              "iconFontFamily": "lucide",
-                              "fill": "$color-healthy-growth"
+                              "type": "frame",
+                              "id": "AAj0g",
+                              "name": "c1IconWrap",
+                              "width": 48,
+                              "height": 48,
+                              "fill": "$color-sage-tint",
+                              "cornerRadius": 12,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon_font",
+                                  "id": "i4cMR",
+                                  "name": "card1Icn",
+                                  "width": 24,
+                                  "height": 24,
+                                  "iconFontName": "handshake",
+                                  "iconFontFamily": "lucide",
+                                  "fill": "$color-healthy-growth"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "H5nId",
+                              "name": "c1Title",
+                              "fill": "$color-rich-soil",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Relational Capacity Building",
+                              "fontFamily": "Archivo Black",
+                              "fontSize": 22,
+                              "fontWeight": "normal"
                             }
                           ]
-                        },
-                        {
-                          "type": "text",
-                          "id": "H5nId",
-                          "name": "c1Title",
-                          "fill": "$color-rich-soil",
-                          "content": "Relational Capacity Building",
-                          "fontFamily": "Archivo Black",
-                          "fontSize": 22,
-                          "fontWeight": "normal"
                         },
                         {
                           "type": "text",
@@ -2045,38 +2057,48 @@
                       "children": [
                         {
                           "type": "frame",
-                          "id": "rDuUf",
-                          "name": "c2IconWrap",
-                          "width": 48,
-                          "height": 48,
-                          "fill": "#FFFFFF",
-                          "cornerRadius": 12,
-                          "justifyContent": "center",
+                          "id": "1M6fQ",
+                          "name": "h2",
+                          "width": "fill_container",
+                          "gap": 16,
                           "alignItems": "center",
                           "children": [
                             {
-                              "type": "icon_font",
-                              "id": "zuIpB",
-                              "name": "card2Icn",
-                              "width": 24,
-                              "height": 24,
-                              "iconFontName": "shield-check",
-                              "iconFontFamily": "lucide",
-                              "fill": "$color-healthy-growth"
+                              "type": "frame",
+                              "id": "rDuUf",
+                              "name": "c2IconWrap",
+                              "width": 48,
+                              "height": 48,
+                              "fill": "#FFFFFF",
+                              "cornerRadius": 12,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon_font",
+                                  "id": "zuIpB",
+                                  "name": "card2Icn",
+                                  "width": 24,
+                                  "height": 24,
+                                  "iconFontName": "shield-check",
+                                  "iconFontFamily": "lucide",
+                                  "fill": "$color-healthy-growth"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "2v0Bi",
+                              "name": "c2Title",
+                              "fill": "$color-rich-soil",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Cooperatively Digital Infrastructure",
+                              "fontFamily": "Archivo Black",
+                              "fontSize": 22,
+                              "fontWeight": "normal"
                             }
                           ]
-                        },
-                        {
-                          "type": "text",
-                          "id": "2v0Bi",
-                          "name": "c2Title",
-                          "fill": "$color-rich-soil",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "Cooperatively Digital Infrastructure",
-                          "fontFamily": "Archivo Black",
-                          "fontSize": 22,
-                          "fontWeight": "normal"
                         },
                         {
                           "type": "text",
@@ -2118,36 +2140,48 @@
                       "children": [
                         {
                           "type": "frame",
-                          "id": "NYhaz",
-                          "name": "c3IconWrap",
-                          "width": 48,
-                          "height": 48,
-                          "fill": "#FFFFFF20",
-                          "cornerRadius": 12,
-                          "justifyContent": "center",
+                          "id": "eRzPD",
+                          "name": "h3",
+                          "width": "fill_container",
+                          "gap": 16,
                           "alignItems": "center",
                           "children": [
                             {
-                              "type": "icon_font",
-                              "id": "Rg6VO",
-                              "name": "card3Icn",
-                              "width": 24,
-                              "height": 24,
-                              "iconFontName": "network",
-                              "iconFontFamily": "lucide",
-                              "fill": "$color-warm-white"
+                              "type": "frame",
+                              "id": "NYhaz",
+                              "name": "c3IconWrap",
+                              "width": 48,
+                              "height": 48,
+                              "fill": "#FFFFFF20",
+                              "cornerRadius": 12,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon_font",
+                                  "id": "Rg6VO",
+                                  "name": "card3Icn",
+                                  "width": 24,
+                                  "height": 24,
+                                  "iconFontName": "network",
+                                  "iconFontFamily": "lucide",
+                                  "fill": "$color-warm-white"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "JW3iE",
+                              "name": "c3Title",
+                              "fill": "$color-warm-white",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Ecosystem Growth",
+                              "fontFamily": "Archivo Black",
+                              "fontSize": 22,
+                              "fontWeight": "normal"
                             }
                           ]
-                        },
-                        {
-                          "type": "text",
-                          "id": "JW3iE",
-                          "name": "c3Title",
-                          "fill": "$color-warm-white",
-                          "content": "Ecosystem Growth",
-                          "fontFamily": "Archivo Black",
-                          "fontSize": 22,
-                          "fontWeight": "normal"
                         },
                         {
                           "type": "text",
@@ -2179,36 +2213,48 @@
                       "children": [
                         {
                           "type": "frame",
-                          "id": "hG9ug",
-                          "name": "c4IconWrap",
-                          "width": 48,
-                          "height": 48,
-                          "fill": "#FFFFFF",
-                          "cornerRadius": 12,
-                          "justifyContent": "center",
+                          "id": "sPHgJ",
+                          "name": "h4",
+                          "width": "fill_container",
+                          "gap": 16,
                           "alignItems": "center",
                           "children": [
                             {
-                              "type": "icon_font",
-                              "id": "145y3",
-                              "name": "card4Icn",
-                              "width": 24,
-                              "height": 24,
-                              "iconFontName": "arrow-right-left",
-                              "iconFontFamily": "lucide",
-                              "fill": "$color-mushroom-beige"
+                              "type": "frame",
+                              "id": "hG9ug",
+                              "name": "c4IconWrap",
+                              "width": 48,
+                              "height": 48,
+                              "fill": "#FFFFFF",
+                              "cornerRadius": 12,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon_font",
+                                  "id": "145y3",
+                                  "name": "card4Icn",
+                                  "width": 24,
+                                  "height": 24,
+                                  "iconFontName": "arrow-right-left",
+                                  "iconFontFamily": "lucide",
+                                  "fill": "$color-mushroom-beige"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "5G46d",
+                              "name": "c4Title",
+                              "fill": "$color-rich-soil",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Economic Incentive Alignment",
+                              "fontFamily": "Archivo Black",
+                              "fontSize": 22,
+                              "fontWeight": "normal"
                             }
                           ]
-                        },
-                        {
-                          "type": "text",
-                          "id": "5G46d",
-                          "name": "c4Title",
-                          "fill": "$color-rich-soil",
-                          "content": "Economic Incentive Alignment",
-                          "fontFamily": "Archivo Black",
-                          "fontSize": 22,
-                          "fontWeight": "normal"
                         },
                         {
                           "type": "text",
@@ -3591,38 +3637,48 @@
                   "children": [
                     {
                       "type": "frame",
-                      "id": "WBvZS",
-                      "name": "c1IconWrap",
-                      "width": 48,
-                      "height": 48,
-                      "fill": "$color-sage-tint",
-                      "cornerRadius": 12,
-                      "justifyContent": "center",
+                      "id": "TwEbI",
+                      "name": "m1",
+                      "width": "fill_container",
+                      "gap": 12,
                       "alignItems": "center",
                       "children": [
                         {
-                          "type": "icon_font",
-                          "id": "zSIf0",
-                          "name": "card1Icn",
-                          "width": 24,
-                          "height": 24,
-                          "iconFontName": "handshake",
-                          "iconFontFamily": "lucide",
-                          "fill": "$color-healthy-growth"
+                          "type": "frame",
+                          "id": "WBvZS",
+                          "name": "c1IconWrap",
+                          "width": 48,
+                          "height": 48,
+                          "fill": "$color-sage-tint",
+                          "cornerRadius": 12,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "zSIf0",
+                              "name": "card1Icn",
+                              "width": 24,
+                              "height": 24,
+                              "iconFontName": "handshake",
+                              "iconFontFamily": "lucide",
+                              "fill": "$color-healthy-growth"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "PAuAq",
+                          "name": "c1Title",
+                          "fill": "$color-rich-soil",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Relational Capacity Building",
+                          "fontFamily": "Archivo Black",
+                          "fontSize": 20,
+                          "fontWeight": "normal"
                         }
                       ]
-                    },
-                    {
-                      "type": "text",
-                      "id": "PAuAq",
-                      "name": "c1Title",
-                      "fill": "$color-rich-soil",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Relational Capacity Building",
-                      "fontFamily": "Archivo Black",
-                      "fontSize": 20,
-                      "fontWeight": "normal"
                     },
                     {
                       "type": "text",
@@ -3653,38 +3709,48 @@
                   "children": [
                     {
                       "type": "frame",
-                      "id": "eOtrT",
-                      "name": "c2IconWrap",
-                      "width": 48,
-                      "height": 48,
-                      "fill": "#FFFFFF",
-                      "cornerRadius": 12,
-                      "justifyContent": "center",
+                      "id": "ZfOGI",
+                      "name": "m2",
+                      "width": "fill_container",
+                      "gap": 12,
                       "alignItems": "center",
                       "children": [
                         {
-                          "type": "icon_font",
-                          "id": "w9dtq",
-                          "name": "card2Icn",
-                          "width": 24,
-                          "height": 24,
-                          "iconFontName": "shield-check",
-                          "iconFontFamily": "lucide",
-                          "fill": "$color-healthy-growth"
+                          "type": "frame",
+                          "id": "eOtrT",
+                          "name": "c2IconWrap",
+                          "width": 48,
+                          "height": 48,
+                          "fill": "#FFFFFF",
+                          "cornerRadius": 12,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "w9dtq",
+                              "name": "card2Icn",
+                              "width": 24,
+                              "height": 24,
+                              "iconFontName": "shield-check",
+                              "iconFontFamily": "lucide",
+                              "fill": "$color-healthy-growth"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "37Nkp",
+                          "name": "c2Title",
+                          "fill": "$color-rich-soil",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Cooperative Digital Infrastructure",
+                          "fontFamily": "Archivo Black",
+                          "fontSize": 20,
+                          "fontWeight": "normal"
                         }
                       ]
-                    },
-                    {
-                      "type": "text",
-                      "id": "37Nkp",
-                      "name": "c2Title",
-                      "fill": "$color-rich-soil",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Cooperative Digital Infrastructure",
-                      "fontFamily": "Archivo Black",
-                      "fontSize": 20,
-                      "fontWeight": "normal"
                     },
                     {
                       "type": "text",
@@ -3715,38 +3781,48 @@
                   "children": [
                     {
                       "type": "frame",
-                      "id": "CtKui",
-                      "name": "c3IconWrap",
-                      "width": 48,
-                      "height": 48,
-                      "fill": "#FFFFFF20",
-                      "cornerRadius": 12,
-                      "justifyContent": "center",
+                      "id": "i1KLt",
+                      "name": "m3",
+                      "width": "fill_container",
+                      "gap": 12,
                       "alignItems": "center",
                       "children": [
                         {
-                          "type": "icon_font",
-                          "id": "L9Bye",
-                          "name": "card3Icn",
-                          "width": 24,
-                          "height": 24,
-                          "iconFontName": "network",
-                          "iconFontFamily": "lucide",
-                          "fill": "$color-warm-white"
+                          "type": "frame",
+                          "id": "CtKui",
+                          "name": "c3IconWrap",
+                          "width": 48,
+                          "height": 48,
+                          "fill": "#FFFFFF20",
+                          "cornerRadius": 12,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "L9Bye",
+                              "name": "card3Icn",
+                              "width": 24,
+                              "height": 24,
+                              "iconFontName": "network",
+                              "iconFontFamily": "lucide",
+                              "fill": "$color-warm-white"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "L41ZI",
+                          "name": "c3Title",
+                          "fill": "$color-warm-white",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Ecosystem Growth",
+                          "fontFamily": "Archivo Black",
+                          "fontSize": 20,
+                          "fontWeight": "normal"
                         }
                       ]
-                    },
-                    {
-                      "type": "text",
-                      "id": "L41ZI",
-                      "name": "c3Title",
-                      "fill": "$color-warm-white",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Ecosystem Growth",
-                      "fontFamily": "Archivo Black",
-                      "fontSize": 20,
-                      "fontWeight": "normal"
                     },
                     {
                       "type": "text",
@@ -3777,38 +3853,48 @@
                   "children": [
                     {
                       "type": "frame",
-                      "id": "eiCQF",
-                      "name": "c4IconWrap",
-                      "width": 48,
-                      "height": 48,
-                      "fill": "#FFFFFF",
-                      "cornerRadius": 12,
-                      "justifyContent": "center",
+                      "id": "m3xGl",
+                      "name": "m4",
+                      "width": "fill_container",
+                      "gap": 12,
                       "alignItems": "center",
                       "children": [
                         {
-                          "type": "icon_font",
-                          "id": "au5Pe",
-                          "name": "card4Icn",
-                          "width": 24,
-                          "height": 24,
-                          "iconFontName": "arrow-right-left",
-                          "iconFontFamily": "lucide",
-                          "fill": "$color-mushroom-beige"
+                          "type": "frame",
+                          "id": "eiCQF",
+                          "name": "c4IconWrap",
+                          "width": 48,
+                          "height": 48,
+                          "fill": "#FFFFFF",
+                          "cornerRadius": 12,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "au5Pe",
+                              "name": "card4Icn",
+                              "width": 24,
+                              "height": 24,
+                              "iconFontName": "arrow-right-left",
+                              "iconFontFamily": "lucide",
+                              "fill": "$color-mushroom-beige"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "0TcMZ",
+                          "name": "c4Title",
+                          "fill": "$color-rich-soil",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Economic Incentive Alignment",
+                          "fontFamily": "Archivo Black",
+                          "fontSize": 20,
+                          "fontWeight": "normal"
                         }
                       ]
-                    },
-                    {
-                      "type": "text",
-                      "id": "0TcMZ",
-                      "name": "c4Title",
-                      "fill": "$color-rich-soil",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Economic Incentive Alignment",
-                      "fontFamily": "Archivo Black",
-                      "fontSize": 20,
-                      "fontWeight": "normal"
                     },
                     {
                       "type": "text",
