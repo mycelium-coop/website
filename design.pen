@@ -2562,7 +2562,7 @@
                               "name": "m1QuoteLine",
                               "fill": "$color-healthy-growth",
                               "width": 3,
-                              "height": 50
+                              "height": "fill_container"
                             },
                             {
                               "type": "text",
@@ -4157,7 +4157,7 @@
                               "name": "quoteLine",
                               "fill": "$color-sage-green",
                               "width": 3,
-                              "height": 50
+                              "height": "fill_container"
                             },
                             {
                               "type": "text",
