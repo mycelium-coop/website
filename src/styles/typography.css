@@ -1,88 +1,294 @@
 .logo-text {
   font-family: var(--font-logo);
-  font-size: 3.5rem;
-  line-height: 1.1;
-  margin-bottom: 1.5rem;
+}
+
+.brand {
+  font-family: var(--font-logo);
+  font-weight: 400;
+  font-synthesis: none;
+  line-height: 1.05;
+  text-decoration: none;
+}
+
+.brand--nav {
+  font-size: clamp(1.05rem, 2vw, 1.35rem);
+  color: var(--color-rich-soil);
+}
+
+.brand--hero {
+  font-size: clamp(2.5rem, 6vw, 4.875rem);
   color: var(--color-warm-white);
-  -webkit-text-stroke: var(--logo-stroke-width) var(--logo-outline-color);
+  letter-spacing: 0.015em;
+  text-wrap: balance;
 }
 
-h2 {
-  font-family: var(--font-header);
-  font-weight: var(--font-header-weight);
-  font-size: 2rem;
-  margin-bottom: 1rem;
+.brand--footer {
+  font-size: clamp(1.1rem, 2vw, 1.5rem);
+  color: var(--color-warm-white);
 }
 
-h3 {
-  font-family: var(--font-header);
-  font-weight: var(--font-header-weight);
-  font-size: 1.4rem;
-  margin-bottom: 0.75rem;
-}
-
-body, p, li {
+.nav-menu a {
   font-family: var(--font-body);
   font-weight: var(--font-body-weight);
-  font-size: 1.05rem;
-  line-height: 1.7;
+  font-size: 0.95rem;
+  line-height: 1.3;
+  text-decoration: none;
 }
 
-.tagline {
-  font-size: 1.25rem;
-  max-width: 720px;
-  margin: 0 auto;
-  line-height: 1.7;
+.hero-tagline {
+  font-family: var(--font-body);
+  font-weight: var(--font-body-weight);
+  font-size: clamp(0.95rem, 2vw, 1.125rem);
+  line-height: 1.8;
+  opacity: 0.92;
+  max-width: 54rem;
+  text-wrap: pretty;
 }
 
-footer .logo-text {
-  font-size: 2rem;
-  margin-bottom: 0.75rem;
-  -webkit-text-stroke: var(--logo-stroke-width) var(--color-mushroom-beige);
-  -webkit-text-fill-color: transparent;
+.section-label {
+  font-family: var(--font-header);
+  font-size: clamp(1rem, 2vw, 1.55rem);
+  letter-spacing: 0.12em;
+  color: var(--color-healthy-growth);
+  text-transform: uppercase;
+}
+
+.section-title {
+  font-family: var(--font-header);
+  font-size: clamp(1.5rem, 3vw, 2.25rem);
+  line-height: 1.25;
+  text-wrap: balance;
+  max-width: 28ch;
+}
+
+.section-intro {
+  font-family: var(--font-body);
+  font-weight: var(--font-body-weight);
+  font-size: 1rem;
+  line-height: 1.75;
+  opacity: 0.75;
+  max-width: 42rem;
+  text-wrap: pretty;
+}
+
+.principle-card h3,
+.service-card h3,
+.team-card__name,
+.contact-form label,
+.footer-nav__heading {
+  font-family: var(--font-header);
+  font-weight: 400;
 }
 
 .principle-card h3 {
-  color: var(--color-rich-soil);
-  font-size: 1.15rem;
-  margin-bottom: 0.5rem;
+  font-size: clamp(1.125rem, 2vw, 1.375rem);
+  line-height: 1.3;
 }
 
 .principle-card p {
-  font-size: 1rem;
-  line-height: 1.6;
+  font-family: var(--font-body);
+  font-weight: var(--font-body-weight);
+  font-size: 0.95rem;
+  line-height: 1.75;
+  opacity: 0.72;
+  text-wrap: pretty;
+}
+
+.principle-card--dark h3,
+.principle-card--dark p {
+  color: var(--color-warm-white);
+}
+
+.principle-card--dark p {
+  opacity: 0.82;
+}
+
+.service-card__index {
+  font-family: var(--font-header);
+  font-size: clamp(2.25rem, 4vw, 3rem);
+  line-height: 1;
+  opacity: 0.3;
 }
 
 .service-card h3 {
+  font-size: clamp(1.2rem, 2.2vw, 1.5rem);
+  line-height: 1.2;
+}
+
+.service-card p:last-child {
+  font-family: var(--font-body);
+  font-weight: var(--font-body-weight);
+  font-size: 0.95rem;
+  line-height: 1.75;
+  opacity: 0.72;
+  text-wrap: pretty;
+}
+
+.service-card--dark .service-card__index,
+.service-card--dark h3,
+.service-card--dark p:last-child {
+  color: var(--color-warm-white);
+}
+
+.service-card--dark .service-card__index {
+  opacity: 0.2;
+}
+
+.service-card--dark p:last-child {
+  opacity: 0.82;
+}
+
+.team-card__name {
+  font-size: clamp(1.4rem, 2.6vw, 1.75rem);
+  line-height: 1.15;
+}
+
+.team-card__role {
+  font-family: var(--font-body);
+  font-weight: var(--font-body-weight);
+  font-size: 0.95rem;
+  line-height: 1.4;
   color: var(--color-healthy-growth);
 }
 
-.team-bio p {
-  margin-bottom: 1rem;
+.team-card__bio,
+.team-card__bio p,
+.team-card__bio li {
+  font-family: var(--font-body);
+  font-weight: var(--font-body-weight);
+  font-size: 0.95rem;
+  line-height: 1.75;
+  color: var(--color-rich-soil);
 }
 
-.team-bio a {
+.team-card__bio p {
+  opacity: 0.68;
+}
+
+.team-card__bio p + p {
+  margin-top: 0.9rem;
+}
+
+.team-card__bio a {
   color: var(--color-healthy-growth);
   text-decoration: underline;
   text-underline-offset: 3px;
 }
 
-footer p {
-  font-size: 1rem;
-  opacity: 0.8;
+.team-card__bio blockquote {
+  display: grid;
+  grid-template-columns: 3px 1fr;
+  gap: 0.75rem;
+  padding-top: 0.25rem;
+  margin-top: 0.25rem;
 }
 
-@media (max-width: 700px) {
-  .logo-text {
-    font-size: 2.5rem;
+.team-card__bio blockquote::before {
+  content: "";
+  border-radius: 999px;
+  background: var(--color-sage-green);
+}
+
+.team-card__bio blockquote p {
+  font-style: italic;
+  opacity: 0.78;
+}
+
+.team-card__empty {
+  font-family: var(--font-body);
+  font-weight: var(--font-body-weight);
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.contact-form label,
+.field input,
+.field textarea,
+.turnstile-note,
+.form-status {
+  font-family: var(--font-body);
+  font-weight: var(--font-body-weight);
+}
+
+.contact-form label {
+  font-size: 0.95rem;
+}
+
+.field input,
+.field textarea {
+  font-size: 0.95rem;
+  line-height: 1.4;
+  color: var(--color-rich-soil);
+}
+
+.turnstile-note {
+  font-size: 0.75rem;
+  line-height: 1.4;
+  color: rgba(107, 78, 61, 0.65);
+}
+
+.form-status {
+  font-size: 0.85rem;
+  line-height: 1.5;
+  min-height: 1.3em;
+}
+
+.footer-brand p,
+.footer-nav__column a,
+.footer-bottom p {
+  font-family: var(--font-body);
+  font-weight: var(--font-body-weight);
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.footer-brand p,
+.footer-nav__column a,
+.footer-bottom p {
+  opacity: 0.62;
+}
+
+.footer-nav__heading {
+  font-size: 0.95rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  opacity: 1;
+}
+
+.footer-nav__column a {
+  text-decoration: none;
+}
+
+@media (max-width: 980px) {
+  .nav-menu a:not(.button) {
+    font-size: 0.95rem;
+    padding: 0.75rem 0.875rem;
+    border-radius: 8px;
+    color: var(--color-rich-soil);
+    opacity: 0.8;
   }
 
-  h2 {
-    font-size: 1.6rem;
+  .nav-menu a:not(.button):hover {
+    background: rgba(127, 166, 124, 0.12);
+    opacity: 1;
+  }
+}
+
+@media (max-width: 720px) {
+  .brand--hero {
+    font-size: clamp(2rem, 10vw, 3rem);
   }
 
-  .tagline {
-    font-size: 1.1rem;
+  .section-label {
+    font-size: 1.05rem;
   }
 
+  .section-title {
+    font-size: clamp(1.3rem, 7vw, 1.75rem);
+    max-width: 20ch;
+  }
+
+  .footer-bottom p {
+    font-size: 0.9rem;
+  }
 }
