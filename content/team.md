@@ -10,7 +10,7 @@ OUR TEAM
 Nikka Ghalili
 
 <!-- @id: team-1-role -->
-Co-Founder & Worker-Owner
+Co-Founder & Worker-Owner (New Orleans Lead)
 
 <!-- @id: team-1-image -->
 https://ik.imagekit.io/qmlzmjfmr/IMG_7392.jpeg
@@ -22,9 +22,22 @@ Since starting his software development career in 2011, Nikka has built everythi
 
 These days, you'll find Nikka deeply involved in New Orleans' solidarity economy, contributing to projects like [Cooperation Gumbo](https://www.coopnola.org/gumbo). He's passionate about movements that are shifting away from extractive capitalism toward economic models rooted in mutual aid and cooperation. Through Mycelium Tech Coop, he's working to help the solidarity economy movement achieve tech sovereignty—building and using technologies that actually reflect our values rather than relying on tools built by extractive systems.
 
-What drives Nikka isn't the idea that he can single-handedly transform the world, but rather his belief in the power of interconnected movements working together. He sees himself as part of a larger ecosystem of people reimagining how we live, work, and relate to each other.
+> What drives Nikka isn't the idea that he can single-handedly transform the world, but rather his belief in the power of interconnected movements working together. He sees himself as part of a larger ecosystem of people reimagining how we live, work, and relate to each other.
 
 When he's not coding or helping friends, neighbors, and family solve their everyday tech problems, Nikka loves spending quality time with loved ones, getting to know new people, reading, and going on long walks with his partner. He's committed to nurturing deeper relationships in his community and exploring—alongside his friends—what it looks like to meet our collective needs through mutual support rather than individual hustle.
+
+<!-- @id: team-2-name -->
+Antonio Aguileira
+
+<!-- @id: team-2-role -->
+Co-Founder & Worker-Owner
+
+<!-- @id: team-2-image -->
+https://ik.imagekit.io/qmlzmjfmr/your-image.jpeg
+
+<!-- @id: team-2-bio -->
+Bio coming soon!
+
 
 <!-- To add another team member, uncomment and fill in the block below:
 
@@ -39,5 +52,3 @@ When he's not coding or helping friends, neighbors, and family solve their every
 
 <!-- @id: team-2-bio -->
 <!-- Bio paragraph(s) here. -->
-
--->

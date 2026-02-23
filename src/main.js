@@ -13,7 +13,6 @@ const TURNSTILE_SITE_KEY = import.meta.env.VITE_TURNSTILE_SITE_KEY || "";
 
 const CONTENT_TOKEN_RE = /<!--\s*@id:\s*([a-zA-Z0-9_-]+)\s*-->|<!--|-->/g;
 const TEAM_FIELD_RE = /^team-(\d+)-(name|role|image|bio)$/;
-const PULL_QUOTE_PREFIX_RE = /^what drives\b/i;
 const MOBILE_NAV_BREAKPOINT = 980;
 const TURNSTILE_SCRIPT_SRC =
   "https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit";
@@ -157,23 +156,7 @@ function buildImageKitSrcSet(url) {
 }
 
 function renderTeamBioHtml(markdown) {
-  const html = marked.parse(markdown);
-  const template = document.createElement("template");
-  template.innerHTML = html;
-
-  const paragraphs = [...template.content.querySelectorAll("p")];
-  const quoteParagraph = paragraphs.find((paragraph) => (
-    PULL_QUOTE_PREFIX_RE.test(paragraph.textContent?.trim() || "")
-  ));
-
-  if (quoteParagraph) {
-    const blockquote = document.createElement("blockquote");
-    const replacementParagraph = quoteParagraph.cloneNode(true);
-    blockquote.append(replacementParagraph);
-    quoteParagraph.replaceWith(blockquote);
-  }
-
-  return template.innerHTML;
+  return marked.parse(markdown);
 }
 
 function renderTeamCards() {
