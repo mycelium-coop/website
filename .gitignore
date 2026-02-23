@@ -6,3 +6,6 @@ references
 .codex
 .cursor
 .playwright-cli
+.env
+.env.local
+.env.*.local

@@ -1,26 +1,28 @@
 :root {
-  /* Colors — Earthy Vitality Palette */
-  --color-warm-white: #FFF8F0;
-  --color-sage-green: #9CAF88;
-  --color-healthy-growth: #7FA67C;
-  --color-mushroom-beige: #BFA993;
-  --color-rich-soil: #6B4E3D;
-
-  /* Derived tints */
+  --color-warm-white: #fff8f0;
+  --color-sage-green: #9caf88;
+  --color-healthy-growth: #7fa67c;
+  --color-mushroom-beige: #bfa993;
+  --color-rich-soil: #6b4e3d;
   --color-sage-tint: #e8ede4;
   --color-mushroom-tint: #f0e8e0;
+  --color-border-soft: #e8ede4;
+  --color-border-input: #bfa993;
+  --color-white: #ffffff;
+  --color-shadow: rgba(107, 78, 61, 0.08);
 
-  /* Font families — controlled by JS toggles */
-  --font-logo: 'Rubik Maze', cursive;
-  --font-header: 'Archivo Black', sans-serif;
-  --font-header-weight: 400;
-  --font-body: 'IBM Plex Mono', monospace;
-  --logo-stroke-width: 0.009em;
-  --logo-outline-color: var(--color-rich-soil);
+  --font-logo: "Rubik Maze", cursive;
+  --font-header: "Archivo Black", sans-serif;
+  --font-body: "IBM Plex Mono", monospace;
+  --font-body-weight: 600;
 
-  /* Spacing */
-  --section-padding: 5rem 2rem;
-  --container-max: 960px;
-  --card-padding: 2rem;
-  --gap: 1.5rem;
+  --page-max: 1440px;
+  --section-pad-x: clamp(1.5rem, 7vw, 7.5rem);
+  --section-pad-y: clamp(4rem, 8vw, 6.25rem);
+  --radius-card: 16px;
+  --radius-button: 8px;
+  --radius-input: 8px;
+  --transition-fast: 150ms ease;
+  --transition-med: 220ms ease;
+  --focus-ring: 0 0 0 3px rgba(127, 166, 124, 0.32);
 }

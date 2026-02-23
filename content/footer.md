@@ -1,2 +1,8 @@
-<!-- @id: footer-note -->
-Font testing preview — not the final website
+<!-- @id: footer-tagline -->
+Advancing technological sovereignty for the solidarity economy.
+
+<!-- @id: footer-copyright -->
+© 2026 Mycelium Tech Coop. Worker-owned & community-driven.
+
+<!-- @id: footer-location -->
+New Orleans, LA
