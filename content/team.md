@@ -33,7 +33,7 @@ Antonio Aguileira
 Co-Founder & Worker-Owner
 
 <!-- @id: team-2-image -->
-https://ik.imagekit.io/qmlzmjfmr/your-image.jpeg
+None
 
 <!-- @id: team-2-bio -->
 Bio coming soon!
@@ -41,14 +41,14 @@ Bio coming soon!
 
 <!-- To add another team member, uncomment and fill in the block below:
 
-<!-- @id: team-2-name -->
+<!-- @id: team-3-name -->
 <!-- New Member Name -->
 
-<!-- @id: team-2-role -->
+<!-- @id: team-3-role -->
 <!-- Role Title -->
 
-<!-- @id: team-2-image -->
+<!-- @id: team-3-image -->
 <!-- https://ik.imagekit.io/qmlzmjfmr/your-image.jpeg -->
 
-<!-- @id: team-2-bio -->
+<!-- @id: team-3-bio -->
 <!-- Bio paragraph(s) here. -->

@@ -99,20 +99,16 @@ function collectTeamMembers(teamSource) {
     .filter((member) => (
       typeof member.name === "string" &&
       typeof member.role === "string" &&
-      typeof member.image === "string" &&
       typeof member.bio === "string"
     ))
     .filter((member) => (
       member.name &&
       member.role &&
-      member.image &&
       member.bio &&
       !isCommentWrappedValue(member.name) &&
       !isCommentWrappedValue(member.role) &&
-      !isCommentWrappedValue(member.image) &&
       !isCommentWrappedValue(member.bio)
-    ))
-    .filter((member) => /^https?:\/\//i.test(member.image));
+    ));
 }
 
 function applyCompactLogos() {
@@ -180,15 +176,17 @@ function renderTeamCards() {
     const media = document.createElement("div");
     media.className = "team-card__media";
 
-    const img = document.createElement("img");
-    const { src, srcset } = buildImageKitSrcSet(member.image);
-    img.src = src;
-    img.srcset = srcset;
-    img.sizes = "(max-width: 720px) 100vw, (max-width: 980px) 80vw, 360px";
-    img.alt = `${member.name} profile photo`;
-    img.loading = "lazy";
-    img.decoding = "async";
-    media.append(img);
+    if (member.image && /^https?:\/\//i.test(member.image)) {
+      const img = document.createElement("img");
+      const { src, srcset } = buildImageKitSrcSet(member.image);
+      img.src = src;
+      img.srcset = srcset;
+      img.sizes = "(max-width: 720px) 100vw, (max-width: 980px) 80vw, 360px";
+      img.alt = `${member.name} profile photo`;
+      img.loading = "lazy";
+      img.decoding = "async";
+      media.append(img);
+    }
 
     const body = document.createElement("div");
     body.className = "team-card__body";
