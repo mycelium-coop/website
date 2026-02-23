@@ -226,7 +226,7 @@ body {
   .team-card__media img {
     /* Preserve the full portrait on desktop and center it within the media column. */
     object-fit: contain;
-    object-position: center;
+    object-position: top;
   }
 }
 
