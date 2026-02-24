@@ -1,5 +1,5 @@
-<!-- @id: nav-link-mission -->
-Mission
+<!-- @id: nav-link-values -->
+Values
 
 <!-- @id: nav-link-services -->
 Services
