@@ -27,7 +27,7 @@ These days, you'll find Nikka deeply involved in New Orleans' solidarity economy
 When he's not coding or helping friends, neighbors, and family solve their everyday tech problems, Nikka loves spending quality time with loved ones, getting to know new people, reading, and going on long walks with his partner. He's committed to nurturing deeper relationships in his community and exploring—alongside his friends—what it looks like to meet our collective needs through mutual support rather than individual hustle.
 
 <!-- @id: team-2-name -->
-Antonio Aguileira
+Antonio Aguilera
 
 <!-- @id: team-2-role -->
 Co-Founder & Worker-Owner
