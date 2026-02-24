@@ -249,13 +249,27 @@ function getTurnstileSize() {
   return window.matchMedia("(max-width: 720px)").matches ? "flexible" : "normal";
 }
 
-function setTurnstileNote(message = "") {
-  const note = document.getElementById("turnstileNote");
-  if (!note) {
-    return;
+const API_ERROR_MAP = {
+  "Invalid submission.": "Something went wrong. Please try again.",
+  "Invalid request origin.": "This form can only be submitted from our website.",
+  "Verification failed.": "Captcha verification failed. Please try again.",
+  "Invalid CORS origin.": "This form can only be submitted from our website.",
+  "Invalid request payload.": "Some form fields are missing or invalid. Please check your entries and try again.",
+  "Email delivery failed. Please try again later.": "We couldn't deliver your message right now. Please try again later.",
+  "Verification service unavailable. Please try again.": "Our verification service is temporarily unavailable. Please try again in a moment.",
+  "Internal server error.": "An unexpected error occurred. Please try again later.",
+};
+
+function friendlyApiError(status, message) {
+  if (API_ERROR_MAP[message]) {
+    return API_ERROR_MAP[message];
   }
 
-  note.textContent = message;
+  if (status >= 500) {
+    return "Something went wrong on our end. Please try again later.";
+  }
+
+  return "Unable to send your message. Please try again.";
 }
 
 function ensureTurnstileScript() {
@@ -293,25 +307,23 @@ async function mountTurnstile() {
   if (!TURNSTILE_SITE_KEY) {
     mount.dataset.placeholder = "true";
     mount.textContent = "Cloudflare Turnstile will render here when VITE_TURNSTILE_SITE_KEY is configured.";
-    setTurnstileNote("Turnstile site key not configured yet.");
+    setFormStatus("Turnstile site key not configured yet.", "error");
     return;
   }
-
-  setTurnstileNote("");
 
   try {
     await ensureTurnstileScript();
   } catch (error) {
     mount.dataset.placeholder = "true";
     mount.textContent = "Unable to load Cloudflare Turnstile.";
-    setTurnstileNote(error instanceof Error ? error.message : "Turnstile failed to load.");
+    setFormStatus(error instanceof Error ? error.message : "Turnstile failed to load.", "error");
     return;
   }
 
   if (!window.turnstile) {
     mount.dataset.placeholder = "true";
     mount.textContent = "Cloudflare Turnstile API unavailable.";
-    setTurnstileNote("Turnstile API did not initialize.");
+    setFormStatus("Turnstile API did not initialize.", "error");
     return;
   }
 
@@ -325,16 +337,15 @@ async function mountTurnstile() {
     action: "contact_form",
     callback: (token) => {
       turnstileToken = token;
-      setTurnstileNote("");
       setFormStatus("");
     },
     "error-callback": () => {
       turnstileToken = "";
-      setTurnstileNote("Captcha error. Please retry.");
+      setFormStatus("Captcha error. Please retry.", "error");
     },
     "expired-callback": () => {
       turnstileToken = "";
-      setTurnstileNote("Captcha expired. Please complete it again.");
+      setFormStatus("Captcha expired. Please complete it again.", "error");
     },
   });
 }
@@ -416,26 +427,24 @@ function setupContactForm() {
       });
 
       if (!response.ok) {
-        let detail = "";
+        let apiMessage = "";
         try {
-          detail = await response.text();
+          const body = await response.json();
+          apiMessage = body.message || "";
         } catch {
-          detail = "";
+          apiMessage = "";
         }
 
-        throw new Error(
-          detail ? `Request failed (${response.status}): ${detail}` : `Request failed (${response.status}).`,
-        );
+        setFormStatus(friendlyApiError(response.status, apiMessage), "error");
+        resetTurnstileIfPresent();
+        return;
       }
 
       form.reset();
       resetTurnstileIfPresent();
       setFormStatus("Thanks for reaching out. Your message has been sent.", "success");
-    } catch (error) {
-      setFormStatus(
-        error instanceof Error ? error.message : "Failed to send message. Please try again.",
-        "error",
-      );
+    } catch {
+      setFormStatus("Unable to reach our server. Please check your connection and try again.", "error");
     } finally {
       setSubmitLoading(false);
     }
