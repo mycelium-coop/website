@@ -216,11 +216,6 @@ function renderTeamCards() {
 }
 
 function setContactEmailBindings() {
-  const recipientInput = document.getElementById("contactRecipient");
-  if (recipientInput) {
-    recipientInput.value = CONTACT_EMAIL;
-  }
-
   document.querySelectorAll("[data-contact-email-link]").forEach((node) => {
     node.setAttribute("href", `mailto:${CONTACT_EMAIL}`);
   });
@@ -370,7 +365,6 @@ function getTurnstileToken() {
 function serializeContactForm(form) {
   const formData = new FormData(form);
   return {
-    to: CONTACT_EMAIL,
     firstName: String(formData.get("firstName") || "").trim(),
     lastName: String(formData.get("lastName") || "").trim(),
     email: String(formData.get("email") || "").trim(),
@@ -379,6 +373,7 @@ function serializeContactForm(form) {
     turnstileToken: getTurnstileToken(),
     pageUrl: window.location.href,
     submittedAt: new Date().toISOString(),
+    honeypot: String(formData.get("honeypot") || ""),
   };
 }
 
