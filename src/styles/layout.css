@@ -86,7 +86,7 @@ body {
   gap: 1rem;
 }
 
-.mission-section {
+.values-section {
   background: var(--color-warm-white);
   display: flex;
   flex-direction: column;
@@ -297,9 +297,6 @@ body {
 .turnstile-area {
   flex: 1 1 18rem;
   min-width: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
 }
 
 .turnstile-slot {
