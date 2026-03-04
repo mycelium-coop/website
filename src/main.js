@@ -10,6 +10,8 @@ import teamMarkdown from "../content/team.md?raw";
 const CONTACT_EMAIL = import.meta.env.VITE_CONTACT_EMAIL || "hello@mycelium.coop";
 const CONTACT_FORM_ENDPOINT = import.meta.env.VITE_CONTACT_FORM_ENDPOINT || "";
 const TURNSTILE_SITE_KEY = import.meta.env.VITE_TURNSTILE_SITE_KEY || "";
+const PLAUSIBLE_EVENT_CONTACT_ATTEMPTED = "Contact Form Attempted";
+const PLAUSIBLE_EVENT_CONTACT_SUBMITTED = "Contact Form Submitted";
 
 const CONTENT_TOKEN_RE = /<!--\s*@id:\s*([a-zA-Z0-9_-]+)\s*-->|<!--|-->/g;
 const TEAM_FIELD_RE = /^team-(\d+)-(name|role|image|bio)$/;
@@ -245,6 +247,14 @@ function setSubmitLoading(isLoading) {
   submitButton.classList.toggle("is-loading", isLoading);
 }
 
+function trackPlausibleEvent(eventName, options) {
+  if (typeof window.plausible !== "function") {
+    return;
+  }
+
+  window.plausible(eventName, options);
+}
+
 function getTurnstileSize() {
   return window.matchMedia("(max-width: 720px)").matches ? "flexible" : "normal";
 }
@@ -397,6 +407,7 @@ function setupContactForm() {
   form.addEventListener("submit", async (event) => {
     event.preventDefault();
     setFormStatus("");
+    trackPlausibleEvent(PLAUSIBLE_EVENT_CONTACT_ATTEMPTED);
 
     if (!form.checkValidity()) {
       form.reportValidity();
@@ -442,6 +453,7 @@ function setupContactForm() {
 
       form.reset();
       resetTurnstileIfPresent();
+      trackPlausibleEvent(PLAUSIBLE_EVENT_CONTACT_SUBMITTED);
       setFormStatus("Thanks for reaching out. Your message has been sent.", "success");
     } catch {
       setFormStatus("Unable to reach our server. Please check your connection and try again.", "error");
